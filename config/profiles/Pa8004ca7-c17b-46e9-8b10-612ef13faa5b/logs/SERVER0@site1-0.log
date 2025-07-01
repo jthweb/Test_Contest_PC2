@@ -1,0 +1,1205 @@
+250629 151203.211|CONFIG|AWT-EventQueue-0|log|Now logging to C:\pc2\TestContest\config\profiles\Pa8004ca7-c17b-46e9-8b10-612ef13faa5b\logs directory.
+250629 151203.212|INFO|AWT-EventQueue-0|log|
+250629 151203.213|INFO|AWT-EventQueue-0|log|Version 9.11build 20250513 (Tuesday, May 13th 2025 22:59 UTC) Java ver 24.0.1 build 7207~develop Windows 10 10.0 (amd64) 
+250629 151203.213|INFO|AWT-EventQueue-0|log|Login: site1 (aka server0)
+250629 151203.214|INFO|AWT-EventQueue-0|log|Working directory is C:\pc2\TestContest\config
+250629 151203.216|INFO|AWT-EventQueue-0|log|Process id is 12448@LAPTOP-HOME2
+250629 151203.217|DEBUG|AWT-EventQueue-0|log|Site Number is set as 1 (0 means unset)
+250629 151203.219|INFO|AWT-EventQueue-0|log|initializeServer STARTED this site as Site 1
+250629 151209.749|INFO|AWT-EventQueue-0|log|initializing controller with default settings
+250629 151209.767|INFO|AWT-EventQueue-0|log|initialized controller Site 1
+250629 151209.774|INFO|AWT-EventQueue-0|log|Loading CDP from C:\pc2\TestContest\config
+250629 151210.772|DEBUG|AWT-EventQueue-0|log|No accounts load file found at C:\pc2\TestContest\config\accounts_load.tsv, ok
+250629 151210.772|INFO|AWT-EventQueue-0|log|Loaded CDP/config values from C:\pc2\TestContest\config
+250629 151210.847|INFO|AWT-EventQueue-0|log|No submissions loaded, no submissions at C:\pc2\TestContest\config\submissions
+250629 151210.847|INFO|AWT-EventQueue-0|log|Judgements not loaded, no judgement file found at .\reject.ini
+250629 151210.849|INFO|AWT-EventQueue-0|log|Loaded default judgements
+250629 151210.850|INFO|AWT-EventQueue-0|log|No auto start.  Date = null set to start false
+250629 151210.874|INFO|AWT-EventQueue-0|log|evals.log is opened at profiles\Pa8004ca7-c17b-46e9-8b10-612ef13faa5b\logs
+250629 151210.876|INFO|AWT-EventQueue-0|log|Created AutoStarter...
+250629 151210.877|INFO|AWT-EventQueue-0|log|updated AutoStarter with date null (note: null means no scheduled start is set)
+250629 151210.879|INFO|AWT-EventQueue-0|log|Started auto stop clock thread, remaining time is 0:30:00
+250629 151210.880|INFO|AWT-EventQueue-0|log|accecptConnections on port:50002
+250629 151210.894|INFO|AWT-EventQueue-0|log|Started Server Transport listening on 50002
+250629 151224.103|INFO|Thread-3|log|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=60148,localport=50002]
+250629 151224.127|INFO|Thread-4|log|registerIncomingConnectionRequest(myConnectionID, thread) 
+250629 151224.139|INFO|Thread-4|log|Generating Unencrypted Public Key Packet
+250629 151224.141|INFO|Thread-4|log|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    7f65c488 75e885ed ca1d13c6 e2284885 2097da4e b6a97879 def0e374 28432450
+    e1c228f7 3579e870 3b8145f6 65cebcff 980b66fb fecc4340 5cc16550 6a9fc502
+    288e5beb 136ff521 08b80b11 2ef900a8 10040cd0 3fe1c712 55d5f402 0e0b2f2c
+    bbc3b2be 74112cf8 e21623e3 eac77869 ff5bc203 a310c547 c93e1aea 7c222e27
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+250629 151224.142|INFO|Thread-4|log|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@747fde27
+250629 151224.217|INFO|Thread-4|log|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114)
+250629 151224.224|INFO|Thread-4|log|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114 key is com.sun.crypto.provider.DESKey@27fe71b1
+250629 151232.829|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151232.859|INFO|Thread-6|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151232.860|INFO|Thread-7|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151305.799|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151305.848|INFO|Thread-9|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151426.048|INFO|Thread-3|log|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=60149,localport=50002]
+250629 151426.061|INFO|Thread-10|log|registerIncomingConnectionRequest(myConnectionID, thread) 
+250629 151426.064|INFO|Thread-10|log|Generating Unencrypted Public Key Packet
+250629 151426.066|INFO|Thread-10|log|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    7f65c488 75e885ed ca1d13c6 e2284885 2097da4e b6a97879 def0e374 28432450
+    e1c228f7 3579e870 3b8145f6 65cebcff 980b66fb fecc4340 5cc16550 6a9fc502
+    288e5beb 136ff521 08b80b11 2ef900a8 10040cd0 3fe1c712 55d5f402 0e0b2f2c
+    bbc3b2be 74112cf8 e21623e3 eac77869 ff5bc203 a310c547 c93e1aea 7c222e27
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+250629 151426.067|INFO|Thread-10|log|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@1b18f9d9
+250629 151426.069|INFO|Thread-11|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151426.339|INFO|Thread-10|log|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464)
+250629 151426.342|INFO|Thread-10|log|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464 key is com.sun.crypto.provider.DESKey@1078f0eb
+250629 151436.541|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151436.565|INFO|Thread-13|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151436.567|INFO|Thread-14|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151436.567|INFO|Thread-15|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151447.551|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151447.573|INFO|Thread-17|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151447.612|INFO|Thread-18|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151455.859|INFO|Thread-3|log|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=60150,localport=50002]
+250629 151455.865|INFO|Thread-19|log|registerIncomingConnectionRequest(myConnectionID, thread) 
+250629 151455.868|INFO|Thread-19|log|Generating Unencrypted Public Key Packet
+250629 151455.870|INFO|Thread-19|log|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    7f65c488 75e885ed ca1d13c6 e2284885 2097da4e b6a97879 def0e374 28432450
+    e1c228f7 3579e870 3b8145f6 65cebcff 980b66fb fecc4340 5cc16550 6a9fc502
+    288e5beb 136ff521 08b80b11 2ef900a8 10040cd0 3fe1c712 55d5f402 0e0b2f2c
+    bbc3b2be 74112cf8 e21623e3 eac77869 ff5bc203 a310c547 c93e1aea 7c222e27
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+250629 151455.870|INFO|Thread-19|log|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@79b9d783
+250629 151455.874|INFO|Thread-20|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151455.948|INFO|Thread-19|log|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=60150,localport=50002]-6738129381289960813)
+250629 151455.951|INFO|Thread-19|log|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=60150,localport=50002]-6738129381289960813 key is com.sun.crypto.provider.DESKey@2ed5ac4
+250629 151455.963|INFO|Thread-19|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151455.981|INFO|Thread-23|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151455.981|INFO|Thread-22|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60150,localport=50002]-6738129381289960813
+250629 151455.986|INFO|Thread-24|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151456.439|INFO|Thread-19|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151456.458|INFO|Thread-25|log|unregisterConnection(ConnectionHandlerID myConnectionID) 
+250629 151456.462|INFO|Thread-19|log|SocketException in receive for Socket[addr=/127.0.0.1,port=60150,localport=50002]-6738129381289960813
+|java.net.SocketException: Socket closed
+|    at sun.nio.ch.NioSocketImpl.endRead (NioSocketImpl.java:242)
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:322)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:345)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:790)
+|    at java.net.Socket$SocketInputStream.implRead (Socket.java:983)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:970)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:964)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2773)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3102)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3112)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1604)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:495)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:453)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:69)
+250629 151456.463|INFO|Thread-19|log|connectionDropped(ConnectionHandlerID myConnectionID) 
+250629 151456.475|INFO|Thread-26|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151456.479|INFO|Thread-27|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151538.662|INFO|Thread-3|log|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=60167,localport=50002]
+250629 151538.731|INFO|Thread-28|log|registerIncomingConnectionRequest(myConnectionID, thread) 
+250629 151538.749|INFO|Thread-28|log|Generating Unencrypted Public Key Packet
+250629 151538.753|INFO|Thread-28|log|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    7f65c488 75e885ed ca1d13c6 e2284885 2097da4e b6a97879 def0e374 28432450
+    e1c228f7 3579e870 3b8145f6 65cebcff 980b66fb fecc4340 5cc16550 6a9fc502
+    288e5beb 136ff521 08b80b11 2ef900a8 10040cd0 3fe1c712 55d5f402 0e0b2f2c
+    bbc3b2be 74112cf8 e21623e3 eac77869 ff5bc203 a310c547 c93e1aea 7c222e27
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+250629 151538.753|INFO|Thread-28|log|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@7f66c6db
+250629 151538.777|INFO|Thread-29|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151538.778|INFO|Thread-28|log|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=60167,localport=50002]-2140899092265168087)
+250629 151538.786|INFO|Thread-28|log|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=60167,localport=50002]-2140899092265168087 key is com.sun.crypto.provider.DESKey@7ac2e891
+250629 151538.790|INFO|Thread-28|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151538.859|INFO|Thread-32|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151538.863|INFO|Thread-31|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60167,localport=50002]-2140899092265168087
+250629 151538.866|INFO|Thread-33|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151539.394|INFO|Thread-3|log|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=60171,localport=50002]
+250629 151539.428|INFO|Thread-34|log|registerIncomingConnectionRequest(myConnectionID, thread) 
+250629 151539.434|INFO|Thread-34|log|Generating Unencrypted Public Key Packet
+250629 151539.437|INFO|Thread-34|log|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    7f65c488 75e885ed ca1d13c6 e2284885 2097da4e b6a97879 def0e374 28432450
+    e1c228f7 3579e870 3b8145f6 65cebcff 980b66fb fecc4340 5cc16550 6a9fc502
+    288e5beb 136ff521 08b80b11 2ef900a8 10040cd0 3fe1c712 55d5f402 0e0b2f2c
+    bbc3b2be 74112cf8 e21623e3 eac77869 ff5bc203 a310c547 c93e1aea 7c222e27
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+250629 151539.442|INFO|Thread-34|log|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@2437e314
+250629 151539.457|INFO|Thread-34|log|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409)
+250629 151539.461|INFO|Thread-34|log|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409 key is com.sun.crypto.provider.DESKey@40a37f90
+250629 151539.483|INFO|Thread-35|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151539.510|INFO|Thread-34|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151539.562|INFO|Thread-37|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 151539.570|INFO|Thread-39|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151539.571|INFO|Thread-38|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151608.612|INFO|Thread-28|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151608.800|INFO|Thread-41|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60167,localport=50002]-2140899092265168087
+250629 151608.800|INFO|Thread-42|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151608.820|INFO|Thread-43|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151608.832|INFO|Thread-44|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 151609.239|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151609.330|INFO|Thread-46|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151609.330|INFO|Thread-47|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151609.334|INFO|Thread-48|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151609.336|INFO|Thread-49|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 151622.537|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151622.705|INFO|Thread-51|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60167,localport=50002]-2140899092265168087
+250629 151622.767|INFO|Thread-53|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151622.766|INFO|Thread-52|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151622.789|INFO|Thread-54|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 151629.968|INFO|Thread-28|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151630.013|INFO|Thread-55|log|unregisterConnection(ConnectionHandlerID myConnectionID) 
+250629 151630.024|INFO|Thread-28|log|SocketException in receive for Socket[addr=/127.0.0.1,port=60167,localport=50002]-2140899092265168087
+|java.net.SocketException: Socket closed
+|    at sun.nio.ch.NioSocketImpl.endRead (NioSocketImpl.java:242)
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:322)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:345)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:790)
+|    at java.net.Socket$SocketInputStream.implRead (Socket.java:983)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:970)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:964)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2773)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3102)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3112)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1604)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:495)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:453)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:69)
+250629 151630.028|INFO|Thread-28|log|connectionDropped(ConnectionHandlerID myConnectionID) 
+250629 151630.059|INFO|Thread-56|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151630.060|INFO|Thread-57|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151635.422|INFO|Thread-3|log|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=60177,localport=50002]
+250629 151635.424|INFO|Thread-58|log|registerIncomingConnectionRequest(myConnectionID, thread) 
+250629 151635.433|INFO|Thread-58|log|Generating Unencrypted Public Key Packet
+250629 151635.437|INFO|Thread-58|log|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    7f65c488 75e885ed ca1d13c6 e2284885 2097da4e b6a97879 def0e374 28432450
+    e1c228f7 3579e870 3b8145f6 65cebcff 980b66fb fecc4340 5cc16550 6a9fc502
+    288e5beb 136ff521 08b80b11 2ef900a8 10040cd0 3fe1c712 55d5f402 0e0b2f2c
+    bbc3b2be 74112cf8 e21623e3 eac77869 ff5bc203 a310c547 c93e1aea 7c222e27
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+250629 151635.437|INFO|Thread-58|log|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@2ca0357
+250629 151635.450|INFO|Thread-59|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151635.450|INFO|Thread-58|log|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=60177,localport=50002]--3756142076415808274)
+250629 151635.455|INFO|Thread-58|log|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=60177,localport=50002]--3756142076415808274 key is com.sun.crypto.provider.DESKey@4808900d
+250629 151635.464|INFO|Thread-58|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151635.520|INFO|Thread-62|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151635.521|INFO|Thread-63|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151635.520|INFO|Thread-61|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60177,localport=50002]--3756142076415808274
+250629 151655.503|INFO|Thread-58|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151655.610|INFO|Thread-65|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60177,localport=50002]--3756142076415808274
+250629 151655.618|INFO|Thread-66|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151655.619|INFO|Thread-68|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 151655.619|INFO|Thread-67|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151656.442|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151656.508|INFO|Thread-70|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151656.512|INFO|Thread-71|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151656.517|INFO|Thread-73|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 151656.514|INFO|Thread-72|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151703.435|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151703.510|INFO|Thread-75|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60177,localport=50002]--3756142076415808274
+250629 151703.520|INFO|Thread-76|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151703.521|INFO|Thread-77|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151703.535|INFO|Thread-78|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 151737.324|INFO|Thread-58|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151737.397|INFO|Thread-80|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60177,localport=50002]--3756142076415808274
+250629 151737.398|INFO|Thread-82|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151737.398|INFO|Thread-81|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151737.406|INFO|Thread-83|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 151738.590|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151738.647|INFO|Thread-85|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151738.659|INFO|Thread-86|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151738.659|INFO|Thread-87|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151738.763|INFO|Thread-88|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 151803.703|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151803.774|INFO|Thread-90|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60177,localport=50002]--3756142076415808274
+250629 151803.784|INFO|Thread-91|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151803.790|INFO|Thread-92|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151803.972|INFO|Thread-93|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 151809.478|INFO|Thread-58|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151809.531|INFO|Thread-94|log|unregisterConnection(ConnectionHandlerID myConnectionID) 
+250629 151809.565|INFO|Thread-58|log|SocketException in receive for Socket[addr=/127.0.0.1,port=60177,localport=50002]--3756142076415808274
+|java.net.SocketException: Socket closed
+|    at sun.nio.ch.NioSocketImpl.endRead (NioSocketImpl.java:242)
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:322)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:345)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:790)
+|    at java.net.Socket$SocketInputStream.implRead (Socket.java:983)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:970)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:964)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2773)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3102)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3112)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1604)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:495)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:453)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:69)
+250629 151809.567|INFO|Thread-58|log|connectionDropped(ConnectionHandlerID myConnectionID) 
+250629 151809.618|INFO|Thread-95|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151809.624|INFO|Thread-96|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151816.075|INFO|Thread-3|log|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=60183,localport=50002]
+250629 151816.088|INFO|Thread-97|log|registerIncomingConnectionRequest(myConnectionID, thread) 
+250629 151816.092|INFO|Thread-97|log|Generating Unencrypted Public Key Packet
+250629 151816.095|INFO|Thread-97|log|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    7f65c488 75e885ed ca1d13c6 e2284885 2097da4e b6a97879 def0e374 28432450
+    e1c228f7 3579e870 3b8145f6 65cebcff 980b66fb fecc4340 5cc16550 6a9fc502
+    288e5beb 136ff521 08b80b11 2ef900a8 10040cd0 3fe1c712 55d5f402 0e0b2f2c
+    bbc3b2be 74112cf8 e21623e3 eac77869 ff5bc203 a310c547 c93e1aea 7c222e27
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+250629 151816.098|INFO|Thread-97|log|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@7939c90c
+250629 151816.121|INFO|Thread-97|log|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=60183,localport=50002]-4834645655654300842)
+250629 151816.126|INFO|Thread-97|log|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=60183,localport=50002]-4834645655654300842 key is com.sun.crypto.provider.DESKey@6c3e9c7f
+250629 151816.132|INFO|Thread-98|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151816.146|INFO|Thread-97|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151816.204|INFO|Thread-101|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151816.204|INFO|Thread-100|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60183,localport=50002]-4834645655654300842
+250629 151816.204|INFO|Thread-102|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151845.164|INFO|Thread-97|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151845.239|INFO|Thread-104|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60183,localport=50002]-4834645655654300842
+250629 151845.248|INFO|Thread-105|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151845.253|INFO|Thread-106|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151845.263|INFO|Thread-107|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 151845.393|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151845.454|INFO|Thread-109|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151845.457|INFO|Thread-110|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151845.459|INFO|Thread-111|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151845.460|INFO|Thread-112|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 151854.156|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151854.208|INFO|Thread-114|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60183,localport=50002]-4834645655654300842
+250629 151854.218|INFO|Thread-115|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151854.219|INFO|Thread-117|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 151854.243|INFO|Thread-116|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151919.315|INFO|Thread-97|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151919.375|INFO|Thread-119|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60183,localport=50002]-4834645655654300842
+250629 151919.378|INFO|Thread-120|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151919.383|INFO|Thread-121|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151919.392|INFO|Thread-122|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 151920.174|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151920.277|INFO|Thread-124|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151920.277|INFO|Thread-125|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151920.278|INFO|Thread-127|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 151920.300|INFO|Thread-126|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151923.223|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151923.251|INFO|Thread-129|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60183,localport=50002]-4834645655654300842
+250629 151923.252|INFO|Thread-130|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151923.253|INFO|Thread-132|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 151923.252|INFO|Thread-131|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 151930.969|INFO|Thread-97|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151930.987|INFO|Thread-133|log|unregisterConnection(ConnectionHandlerID myConnectionID) 
+250629 151930.990|INFO|Thread-97|log|SocketException in receive for Socket[addr=/127.0.0.1,port=60183,localport=50002]-4834645655654300842
+|java.net.SocketException: Socket closed
+|    at sun.nio.ch.NioSocketImpl.endRead (NioSocketImpl.java:242)
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:322)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:345)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:790)
+|    at java.net.Socket$SocketInputStream.implRead (Socket.java:983)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:970)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:964)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2773)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3102)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3112)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1604)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:495)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:453)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:69)
+250629 151930.991|INFO|Thread-97|log|connectionDropped(ConnectionHandlerID myConnectionID) 
+250629 151931.018|INFO|Thread-134|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151931.018|INFO|Thread-135|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151935.501|INFO|Thread-3|log|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=60190,localport=50002]
+250629 151935.504|INFO|Thread-136|log|registerIncomingConnectionRequest(myConnectionID, thread) 
+250629 151935.507|INFO|Thread-136|log|Generating Unencrypted Public Key Packet
+250629 151935.509|INFO|Thread-136|log|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    7f65c488 75e885ed ca1d13c6 e2284885 2097da4e b6a97879 def0e374 28432450
+    e1c228f7 3579e870 3b8145f6 65cebcff 980b66fb fecc4340 5cc16550 6a9fc502
+    288e5beb 136ff521 08b80b11 2ef900a8 10040cd0 3fe1c712 55d5f402 0e0b2f2c
+    bbc3b2be 74112cf8 e21623e3 eac77869 ff5bc203 a310c547 c93e1aea 7c222e27
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+250629 151935.509|INFO|Thread-137|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151935.510|INFO|Thread-136|log|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@7ee29551
+250629 151935.521|INFO|Thread-136|log|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=60190,localport=50002]--448326113239681063)
+250629 151935.524|INFO|Thread-136|log|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=60190,localport=50002]--448326113239681063 key is com.sun.crypto.provider.DESKey@2d77f7f0
+250629 151935.526|INFO|Thread-136|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151935.534|INFO|Thread-139|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60190,localport=50002]--448326113239681063
+250629 151940.160|INFO|Thread-3|log|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=60191,localport=50002]
+250629 151940.161|INFO|Thread-140|log|registerIncomingConnectionRequest(myConnectionID, thread) 
+250629 151940.166|INFO|Thread-140|log|Generating Unencrypted Public Key Packet
+250629 151940.167|INFO|Thread-140|log|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    7f65c488 75e885ed ca1d13c6 e2284885 2097da4e b6a97879 def0e374 28432450
+    e1c228f7 3579e870 3b8145f6 65cebcff 980b66fb fecc4340 5cc16550 6a9fc502
+    288e5beb 136ff521 08b80b11 2ef900a8 10040cd0 3fe1c712 55d5f402 0e0b2f2c
+    bbc3b2be 74112cf8 e21623e3 eac77869 ff5bc203 a310c547 c93e1aea 7c222e27
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+250629 151940.167|INFO|Thread-140|log|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@1b2c7eab
+250629 151940.170|INFO|Thread-141|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151940.175|INFO|Thread-140|log|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=60191,localport=50002]--3105452877465306240)
+250629 151940.178|INFO|Thread-140|log|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=60191,localport=50002]--3105452877465306240 key is com.sun.crypto.provider.DESKey@207637ec
+250629 151940.183|INFO|Thread-140|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 151940.191|INFO|Thread-143|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60191,localport=50002]--3105452877465306240
+250629 151940.192|INFO|Thread-144|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 151940.205|INFO|Thread-145|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152001.733|INFO|Thread-140|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152001.784|INFO|Thread-148|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152001.791|INFO|Thread-147|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60191,localport=50002]--3105452877465306240
+250629 152001.794|INFO|Thread-150|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152001.797|INFO|Thread-149|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152002.271|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152002.318|INFO|Thread-152|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152002.321|INFO|Thread-153|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152002.324|INFO|Thread-154|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152002.325|INFO|Thread-155|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152008.422|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152008.457|INFO|Thread-157|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60191,localport=50002]--3105452877465306240
+250629 152008.460|INFO|Thread-158|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152008.463|INFO|Thread-159|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152008.474|INFO|Thread-160|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152026.147|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152026.199|INFO|Thread-162|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152026.206|INFO|Thread-163|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152026.208|INFO|Thread-164|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152026.214|INFO|Thread-165|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152039.883|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152039.969|INFO|Thread-167|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152039.980|INFO|Thread-168|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152039.999|INFO|Thread-169|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152042.458|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152042.492|INFO|Thread-171|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152042.507|INFO|Thread-172|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152042.513|INFO|Thread-174|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152042.511|INFO|Thread-173|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152053.327|INFO|Thread-140|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152053.435|INFO|Thread-175|log|unregisterConnection(ConnectionHandlerID myConnectionID) 
+250629 152053.454|INFO|Thread-140|log|SocketException in receive for Socket[addr=/127.0.0.1,port=60191,localport=50002]--3105452877465306240
+|java.net.SocketException: Socket closed
+|    at sun.nio.ch.NioSocketImpl.endRead (NioSocketImpl.java:242)
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:322)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:345)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:790)
+|    at java.net.Socket$SocketInputStream.implRead (Socket.java:983)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:970)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:964)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2773)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3102)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3112)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1604)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:495)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:453)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:69)
+250629 152053.457|INFO|Thread-140|log|connectionDropped(ConnectionHandlerID myConnectionID) 
+250629 152053.464|INFO|Thread-176|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152053.466|INFO|Thread-177|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152058.684|INFO|Thread-3|log|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=60197,localport=50002]
+250629 152058.699|INFO|Thread-178|log|registerIncomingConnectionRequest(myConnectionID, thread) 
+250629 152058.705|INFO|Thread-178|log|Generating Unencrypted Public Key Packet
+250629 152058.708|INFO|Thread-178|log|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    7f65c488 75e885ed ca1d13c6 e2284885 2097da4e b6a97879 def0e374 28432450
+    e1c228f7 3579e870 3b8145f6 65cebcff 980b66fb fecc4340 5cc16550 6a9fc502
+    288e5beb 136ff521 08b80b11 2ef900a8 10040cd0 3fe1c712 55d5f402 0e0b2f2c
+    bbc3b2be 74112cf8 e21623e3 eac77869 ff5bc203 a310c547 c93e1aea 7c222e27
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+250629 152058.708|INFO|Thread-178|log|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@20edf365
+250629 152058.726|INFO|Thread-178|log|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=60197,localport=50002]-1783296059949540530)
+250629 152058.730|INFO|Thread-178|log|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=60197,localport=50002]-1783296059949540530 key is com.sun.crypto.provider.DESKey@3998eb41
+250629 152058.734|INFO|Thread-179|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152058.750|INFO|Thread-178|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152058.786|INFO|Thread-181|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60197,localport=50002]-1783296059949540530
+250629 152058.787|INFO|Thread-183|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152058.787|INFO|Thread-182|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152121.288|INFO|Thread-178|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152121.332|INFO|Thread-185|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60197,localport=50002]-1783296059949540530
+250629 152121.343|INFO|Thread-186|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152121.344|INFO|Thread-188|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152121.347|INFO|Thread-187|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152141.572|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152141.621|INFO|Thread-191|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152141.622|INFO|Thread-190|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152141.622|INFO|Thread-192|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152201.629|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152201.692|INFO|Thread-194|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152208.808|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152208.865|INFO|Thread-196|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152208.867|INFO|Thread-197|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152208.968|INFO|Thread-198|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152217.497|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152217.578|INFO|Thread-200|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152217.584|INFO|Thread-201|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152217.586|INFO|Thread-203|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152217.590|INFO|Thread-202|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152248.689|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152248.739|INFO|Thread-205|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60197,localport=50002]-1783296059949540530
+250629 152248.743|INFO|Thread-206|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152248.744|INFO|Thread-207|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152248.748|INFO|Thread-208|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152309.859|INFO|Thread-178|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152309.883|INFO|Thread-210|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60197,localport=50002]-1783296059949540530
+250629 152309.888|INFO|Thread-211|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152309.889|INFO|Thread-213|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152309.888|INFO|Thread-212|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152331.157|INFO|Thread-178|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152331.219|INFO|Thread-215|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60197,localport=50002]-1783296059949540530
+250629 152331.220|INFO|Thread-216|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152331.224|INFO|Thread-217|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152331.224|INFO|Thread-218|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152342.970|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152343.035|INFO|Thread-220|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152412.707|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152412.746|INFO|Thread-222|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152425.411|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152425.451|INFO|Thread-224|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152425.452|INFO|Thread-225|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152425.482|INFO|Thread-226|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152427.876|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152427.945|INFO|Thread-228|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152438.343|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152438.380|INFO|Thread-230|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152438.381|INFO|Thread-232|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152438.381|INFO|Thread-231|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152441.421|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152441.484|INFO|Thread-234|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152441.484|INFO|Thread-235|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152441.488|INFO|Thread-236|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152441.496|INFO|Thread-237|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152451.241|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152451.288|INFO|Thread-240|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152451.290|INFO|Thread-241|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152451.290|INFO|Thread-239|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60197,localport=50002]-1783296059949540530
+250629 152451.302|INFO|Thread-242|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152453.474|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152453.556|INFO|Thread-244|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152453.567|INFO|Thread-245|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152453.569|INFO|Thread-246|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152453.572|INFO|Thread-247|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152519.908|INFO|Thread-178|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152520.033|INFO|Thread-249|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60197,localport=50002]-1783296059949540530
+250629 152520.034|INFO|Thread-250|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152520.037|INFO|Thread-251|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152520.048|INFO|Thread-252|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152524.307|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152524.357|INFO|Thread-254|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60197,localport=50002]-1783296059949540530
+250629 152524.358|INFO|Thread-256|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152524.359|INFO|Thread-257|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152524.358|INFO|Thread-255|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152527.039|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152527.101|INFO|Thread-259|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152527.113|INFO|Thread-260|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152527.137|INFO|Thread-261|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152527.186|INFO|Thread-262|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152531.970|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152532.001|INFO|Thread-264|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152532.001|INFO|Thread-265|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152532.016|INFO|Thread-266|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152532.023|INFO|Thread-267|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60197,localport=50002]-1783296059949540530
+250629 152544.570|INFO|Thread-178|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152544.957|INFO|Thread-269|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60197,localport=50002]-1783296059949540530
+250629 152544.958|INFO|Thread-270|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152544.961|INFO|Thread-271|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152544.970|INFO|Thread-272|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152551.611|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152551.644|INFO|Thread-275|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152551.644|INFO|Thread-277|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152551.644|INFO|Thread-276|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152551.644|INFO|Thread-274|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152556.668|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152556.706|INFO|Thread-279|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152556.708|INFO|Thread-280|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152556.718|INFO|Thread-281|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152556.722|INFO|Thread-282|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60197,localport=50002]-1783296059949540530
+250629 152652.103|INFO|Thread-178|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152652.112|INFO|Thread-283|log|unregisterConnection(ConnectionHandlerID myConnectionID) 
+250629 152652.122|INFO|Thread-178|log|SocketException in receive for Socket[addr=/127.0.0.1,port=60197,localport=50002]-1783296059949540530
+|java.net.SocketException: Socket closed
+|    at sun.nio.ch.NioSocketImpl.endRead (NioSocketImpl.java:242)
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:322)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:345)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:790)
+|    at java.net.Socket$SocketInputStream.implRead (Socket.java:983)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:970)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:964)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2773)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3102)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3112)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1604)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:495)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:453)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:69)
+250629 152652.125|INFO|Thread-178|log|connectionDropped(ConnectionHandlerID myConnectionID) 
+250629 152652.173|INFO|Thread-284|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152652.179|INFO|Thread-285|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152656.906|INFO|Thread-3|log|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=60214,localport=50002]
+250629 152656.908|INFO|Thread-286|log|registerIncomingConnectionRequest(myConnectionID, thread) 
+250629 152656.909|INFO|Thread-286|log|Generating Unencrypted Public Key Packet
+250629 152656.913|INFO|Thread-286|log|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    7f65c488 75e885ed ca1d13c6 e2284885 2097da4e b6a97879 def0e374 28432450
+    e1c228f7 3579e870 3b8145f6 65cebcff 980b66fb fecc4340 5cc16550 6a9fc502
+    288e5beb 136ff521 08b80b11 2ef900a8 10040cd0 3fe1c712 55d5f402 0e0b2f2c
+    bbc3b2be 74112cf8 e21623e3 eac77869 ff5bc203 a310c547 c93e1aea 7c222e27
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+250629 152656.915|INFO|Thread-286|log|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@60d8c8d
+250629 152656.921|INFO|Thread-287|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152656.925|INFO|Thread-286|log|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=60214,localport=50002]--7050813555573001378)
+250629 152656.927|INFO|Thread-286|log|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=60214,localport=50002]--7050813555573001378 key is com.sun.crypto.provider.DESKey@75330e6b
+250629 152656.935|INFO|Thread-286|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152656.956|INFO|Thread-289|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60214,localport=50002]--7050813555573001378
+250629 152656.959|INFO|Thread-290|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152656.967|INFO|Thread-291|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152714.582|INFO|Thread-286|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152714.617|INFO|Thread-293|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60214,localport=50002]--7050813555573001378
+250629 152714.618|INFO|Thread-294|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152714.641|INFO|Thread-296|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152714.649|INFO|Thread-295|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152727.107|INFO|Thread-286|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152727.143|INFO|Thread-299|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152727.144|INFO|Thread-298|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60214,localport=50002]--7050813555573001378
+250629 152727.146|INFO|Thread-300|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152727.150|INFO|Thread-301|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152744.195|INFO|Thread-286|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152744.243|INFO|Thread-303|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60214,localport=50002]--7050813555573001378
+250629 152744.253|INFO|Thread-304|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152744.257|INFO|Thread-305|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152744.261|INFO|Thread-306|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152800.250|INFO|Thread-286|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152800.292|INFO|Thread-308|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60214,localport=50002]--7050813555573001378
+250629 152800.311|INFO|Thread-309|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152800.316|INFO|Thread-310|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152800.321|INFO|Thread-311|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152827.020|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152827.085|INFO|Thread-313|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152831.546|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152831.592|INFO|Thread-315|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152831.596|INFO|Thread-316|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152831.602|INFO|Thread-317|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152833.153|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152833.199|INFO|Thread-319|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152837.806|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152837.834|INFO|Thread-321|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152837.835|INFO|Thread-322|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152837.843|INFO|Thread-323|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152839.317|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152839.376|INFO|Thread-325|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152843.089|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152843.119|INFO|Thread-327|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152843.120|INFO|Thread-328|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152843.120|INFO|Thread-329|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152844.455|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152844.528|INFO|Thread-331|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152847.767|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152847.799|INFO|Thread-333|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152847.800|INFO|Thread-334|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152847.814|INFO|Thread-335|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152851.848|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152851.890|INFO|Thread-337|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152851.904|INFO|Thread-338|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152851.909|INFO|Thread-339|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152852.007|INFO|Thread-340|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152902.296|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152902.342|INFO|Thread-342|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60214,localport=50002]--7050813555573001378
+250629 152902.343|INFO|Thread-343|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152902.350|INFO|Thread-344|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152902.360|INFO|Thread-345|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152904.522|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152904.594|INFO|Thread-347|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152904.596|INFO|Thread-348|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152904.602|INFO|Thread-349|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152904.652|INFO|Thread-350|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152913.053|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152913.092|INFO|Thread-353|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152913.092|INFO|Thread-352|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60214,localport=50002]--7050813555573001378
+250629 152913.096|INFO|Thread-354|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152913.102|INFO|Thread-355|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152917.582|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152917.620|INFO|Thread-357|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152917.621|INFO|Thread-358|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152917.631|INFO|Thread-360|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152917.635|INFO|Thread-359|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152925.625|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152925.662|INFO|Thread-362|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60214,localport=50002]--7050813555573001378
+250629 152925.664|INFO|Thread-363|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152925.665|INFO|Thread-364|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152925.671|INFO|Thread-365|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152928.062|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152928.130|INFO|Thread-367|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152928.151|INFO|Thread-368|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152928.171|INFO|Thread-369|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 152928.230|INFO|Thread-370|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152940.096|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 152940.139|INFO|Thread-372|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60214,localport=50002]--7050813555573001378
+250629 152940.140|INFO|Thread-373|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 152940.145|INFO|Thread-375|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 152940.146|INFO|Thread-374|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 153058.240|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 153058.355|INFO|Thread-377|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 153058.392|INFO|Thread-378|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 153058.401|INFO|Thread-379|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 153058.410|INFO|Thread-380|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 153058.417|INFO|Thread-381|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60214,localport=50002]--7050813555573001378
+250629 153112.909|INFO|Thread-286|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 153112.920|INFO|Thread-382|log|unregisterConnection(ConnectionHandlerID myConnectionID) 
+250629 153112.923|INFO|Thread-286|log|SocketException in receive for Socket[addr=/127.0.0.1,port=60214,localport=50002]--7050813555573001378
+|java.net.SocketException: Socket closed
+|    at sun.nio.ch.NioSocketImpl.endRead (NioSocketImpl.java:242)
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:322)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:345)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:790)
+|    at java.net.Socket$SocketInputStream.implRead (Socket.java:983)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:970)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:964)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2773)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3102)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3112)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1604)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:495)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:453)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:69)
+250629 153112.923|INFO|Thread-286|log|connectionDropped(ConnectionHandlerID myConnectionID) 
+250629 153112.958|INFO|Thread-383|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 153112.958|INFO|Thread-384|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 153123.005|INFO|Thread-3|log|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=60225,localport=50002]
+250629 153123.007|INFO|Thread-385|log|registerIncomingConnectionRequest(myConnectionID, thread) 
+250629 153123.010|INFO|Thread-385|log|Generating Unencrypted Public Key Packet
+250629 153123.011|INFO|Thread-385|log|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    7f65c488 75e885ed ca1d13c6 e2284885 2097da4e b6a97879 def0e374 28432450
+    e1c228f7 3579e870 3b8145f6 65cebcff 980b66fb fecc4340 5cc16550 6a9fc502
+    288e5beb 136ff521 08b80b11 2ef900a8 10040cd0 3fe1c712 55d5f402 0e0b2f2c
+    bbc3b2be 74112cf8 e21623e3 eac77869 ff5bc203 a310c547 c93e1aea 7c222e27
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+250629 153123.011|INFO|Thread-385|log|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@3a26bbf8
+250629 153123.018|INFO|Thread-386|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 153123.021|INFO|Thread-385|log|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=60225,localport=50002]--7631468800000855344)
+250629 153123.024|INFO|Thread-385|log|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=60225,localport=50002]--7631468800000855344 key is com.sun.crypto.provider.DESKey@1cd57588
+250629 153123.026|INFO|Thread-385|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 153123.033|INFO|Thread-388|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60225,localport=50002]--7631468800000855344
+250629 153123.035|INFO|Thread-390|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 153123.035|INFO|Thread-389|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 153145.027|INFO|Thread-385|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 153145.075|INFO|Thread-392|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60225,localport=50002]--7631468800000855344
+250629 153145.077|INFO|Thread-393|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 153145.079|INFO|Thread-394|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 153145.082|INFO|Thread-395|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 153154.927|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 153154.998|INFO|Thread-397|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 153206.940|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 153206.977|INFO|Thread-399|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 153206.977|INFO|Thread-400|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 153206.984|INFO|Thread-401|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 153216.410|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 153216.458|INFO|Thread-403|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 153216.463|INFO|Thread-404|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 153216.475|INFO|Thread-405|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 153216.482|INFO|Thread-406|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 153222.241|INFO|Thread-10|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 153222.310|INFO|Thread-409|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 153222.310|INFO|Thread-410|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+250629 153222.316|INFO|Thread-411|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+250629 153222.317|INFO|Thread-408|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60225,localport=50002]--7631468800000855344
+250629 153227.118|INFO|Thread-10|log|SocketException in receive for Socket[addr=/127.0.0.1,port=60149,localport=50002]-8139969642650754464
+|java.net.SocketException: Connection reset
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:317)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:345)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:790)
+|    at java.net.Socket$SocketInputStream.implRead (Socket.java:983)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:970)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:964)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2773)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3102)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3112)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1604)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:495)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:453)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:69)
+250629 153227.119|INFO|Thread-10|log|connectionDropped(ConnectionHandlerID myConnectionID) 
+250629 153227.121|INFO|Thread-412|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 153227.125|INFO|Thread-413|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 153236.688|INFO|Thread-385|log|SocketException in receive for Socket[addr=/127.0.0.1,port=60225,localport=50002]--7631468800000855344
+|java.net.SocketException: Connection reset
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:317)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:345)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:790)
+|    at java.net.Socket$SocketInputStream.implRead (Socket.java:983)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:970)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:964)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2773)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3102)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3112)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1604)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:495)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:453)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:69)
+250629 153236.689|INFO|Thread-385|log|connectionDropped(ConnectionHandlerID myConnectionID) 
+250629 153236.698|INFO|Thread-414|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 153236.700|INFO|Thread-415|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 153236.714|INFO|Thread-136|log|SocketException in receive for Socket[addr=/127.0.0.1,port=60190,localport=50002]--448326113239681063
+|java.net.SocketException: Connection reset
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:317)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:345)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:790)
+|    at java.net.Socket$SocketInputStream.implRead (Socket.java:983)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:970)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:964)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2773)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3102)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3112)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1604)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:495)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:453)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:69)
+250629 153236.715|INFO|Thread-136|log|connectionDropped(ConnectionHandlerID myConnectionID) 
+250629 153236.727|INFO|Thread-34|log|SocketException in receive for Socket[addr=/127.0.0.1,port=60171,localport=50002]--9079808758794292409
+|java.net.SocketException: Connection reset
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:317)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:345)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:790)
+|    at java.net.Socket$SocketInputStream.implRead (Socket.java:983)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:970)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:964)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2773)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3102)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3112)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1604)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:495)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:453)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:69)
+250629 153236.728|INFO|Thread-34|log|connectionDropped(ConnectionHandlerID myConnectionID) 
+250629 153236.783|INFO|Thread-416|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 153236.788|INFO|Thread-417|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 153236.796|INFO|Thread-418|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 153304.308|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 153304.338|INFO|Thread-420|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154157.168|INFO|Thread-3|log|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=60236,localport=50002]
+250629 154157.179|INFO|Thread-421|log|registerIncomingConnectionRequest(myConnectionID, thread) 
+250629 154157.182|INFO|Thread-421|log|Generating Unencrypted Public Key Packet
+250629 154157.182|INFO|Thread-421|log|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    7f65c488 75e885ed ca1d13c6 e2284885 2097da4e b6a97879 def0e374 28432450
+    e1c228f7 3579e870 3b8145f6 65cebcff 980b66fb fecc4340 5cc16550 6a9fc502
+    288e5beb 136ff521 08b80b11 2ef900a8 10040cd0 3fe1c712 55d5f402 0e0b2f2c
+    bbc3b2be 74112cf8 e21623e3 eac77869 ff5bc203 a310c547 c93e1aea 7c222e27
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+250629 154157.182|INFO|Thread-421|log|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@2d5a5e8f
+250629 154157.185|INFO|Thread-422|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154157.301|INFO|Thread-421|log|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=60236,localport=50002]-6028198461145509331)
+250629 154157.305|INFO|Thread-421|log|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=60236,localport=50002]-6028198461145509331 key is com.sun.crypto.provider.DESKey@c9b0d3bf
+250629 154157.320|INFO|Thread-421|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154157.327|INFO|Thread-424|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60236,localport=50002]-6028198461145509331
+250629 154157.329|INFO|Thread-425|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154157.737|INFO|Thread-421|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154157.741|INFO|Thread-426|log|unregisterConnection(ConnectionHandlerID myConnectionID) 
+250629 154157.742|INFO|Thread-421|log|SocketException in receive for Socket[addr=/127.0.0.1,port=60236,localport=50002]-6028198461145509331
+|java.net.SocketException: Socket closed
+|    at sun.nio.ch.NioSocketImpl.endRead (NioSocketImpl.java:242)
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:322)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:345)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:790)
+|    at java.net.Socket$SocketInputStream.implRead (Socket.java:983)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:970)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:964)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2773)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3102)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3112)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1604)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:495)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:453)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:69)
+250629 154157.743|INFO|Thread-421|log|connectionDropped(ConnectionHandlerID myConnectionID) 
+250629 154157.749|INFO|Thread-427|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154157.752|INFO|Thread-428|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154215.436|INFO|Thread-3|log|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=60249,localport=50002]
+250629 154215.463|INFO|Thread-429|log|registerIncomingConnectionRequest(myConnectionID, thread) 
+250629 154215.502|INFO|Thread-429|log|Generating Unencrypted Public Key Packet
+250629 154215.519|INFO|Thread-429|log|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    7f65c488 75e885ed ca1d13c6 e2284885 2097da4e b6a97879 def0e374 28432450
+    e1c228f7 3579e870 3b8145f6 65cebcff 980b66fb fecc4340 5cc16550 6a9fc502
+    288e5beb 136ff521 08b80b11 2ef900a8 10040cd0 3fe1c712 55d5f402 0e0b2f2c
+    bbc3b2be 74112cf8 e21623e3 eac77869 ff5bc203 a310c547 c93e1aea 7c222e27
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+250629 154215.519|INFO|Thread-429|log|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@60fba8bf
+250629 154215.530|INFO|Thread-430|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154215.537|INFO|Thread-429|log|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=60249,localport=50002]--1055304409583725641)
+250629 154215.540|INFO|Thread-429|log|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=60249,localport=50002]--1055304409583725641 key is com.sun.crypto.provider.DESKey@5b83f319
+250629 154215.544|INFO|Thread-429|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154215.573|INFO|Thread-432|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60249,localport=50002]--1055304409583725641
+250629 154216.874|INFO|Thread-3|log|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=60250,localport=50002]
+250629 154216.879|INFO|Thread-433|log|registerIncomingConnectionRequest(myConnectionID, thread) 
+250629 154216.882|INFO|Thread-433|log|Generating Unencrypted Public Key Packet
+250629 154216.886|INFO|Thread-433|log|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    7f65c488 75e885ed ca1d13c6 e2284885 2097da4e b6a97879 def0e374 28432450
+    e1c228f7 3579e870 3b8145f6 65cebcff 980b66fb fecc4340 5cc16550 6a9fc502
+    288e5beb 136ff521 08b80b11 2ef900a8 10040cd0 3fe1c712 55d5f402 0e0b2f2c
+    bbc3b2be 74112cf8 e21623e3 eac77869 ff5bc203 a310c547 c93e1aea 7c222e27
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+250629 154216.887|INFO|Thread-433|log|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@2333df51
+250629 154216.899|INFO|Thread-433|log|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=60250,localport=50002]--7846870997674501917)
+250629 154216.900|INFO|Thread-433|log|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=60250,localport=50002]--7846870997674501917 key is com.sun.crypto.provider.DESKey@532403d7
+250629 154216.903|INFO|Thread-434|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154216.910|INFO|Thread-433|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154216.939|INFO|Thread-436|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60250,localport=50002]--7846870997674501917
+250629 154216.952|INFO|Thread-437|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154217.592|INFO|Thread-3|log|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=60255,localport=50002]
+250629 154217.622|INFO|Thread-438|log|registerIncomingConnectionRequest(myConnectionID, thread) 
+250629 154217.627|INFO|Thread-438|log|Generating Unencrypted Public Key Packet
+250629 154217.639|INFO|Thread-438|log|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    7f65c488 75e885ed ca1d13c6 e2284885 2097da4e b6a97879 def0e374 28432450
+    e1c228f7 3579e870 3b8145f6 65cebcff 980b66fb fecc4340 5cc16550 6a9fc502
+    288e5beb 136ff521 08b80b11 2ef900a8 10040cd0 3fe1c712 55d5f402 0e0b2f2c
+    bbc3b2be 74112cf8 e21623e3 eac77869 ff5bc203 a310c547 c93e1aea 7c222e27
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+250629 154217.639|INFO|Thread-438|log|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@489bbeb1
+250629 154217.699|INFO|Thread-438|log|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=60255,localport=50002]-2029895332128906280)
+250629 154217.700|INFO|Thread-438|log|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=60255,localport=50002]-2029895332128906280 key is com.sun.crypto.provider.DESKey@c34e6b03
+250629 154217.703|INFO|Thread-439|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154217.713|INFO|Thread-438|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154217.746|INFO|Thread-441|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60255,localport=50002]-2029895332128906280
+250629 154217.750|INFO|Thread-442|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154227.244|INFO|Thread-433|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154227.311|INFO|Thread-444|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60250,localport=50002]--7846870997674501917
+250629 154227.312|INFO|Thread-446|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60255,localport=50002]-2029895332128906280
+250629 154227.312|INFO|Thread-445|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154232.806|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154232.885|INFO|Thread-448|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154236.934|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154236.967|INFO|Thread-451|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60255,localport=50002]-2029895332128906280
+250629 154236.969|INFO|Thread-450|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154237.569|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154237.638|INFO|Thread-453|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154237.644|INFO|Thread-454|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154237.651|INFO|Thread-455|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60255,localport=50002]-2029895332128906280
+250629 154245.595|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154245.641|INFO|Thread-457|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60250,localport=50002]--7846870997674501917
+250629 154245.641|INFO|Thread-458|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154245.642|INFO|Thread-459|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60255,localport=50002]-2029895332128906280
+250629 154304.859|INFO|Thread-433|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154304.917|INFO|Thread-461|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60250,localport=50002]--7846870997674501917
+250629 154304.929|INFO|Thread-462|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154304.935|INFO|Thread-463|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60255,localport=50002]-2029895332128906280
+250629 154305.622|INFO|Thread-433|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154305.643|INFO|Thread-464|log|unregisterConnection(ConnectionHandlerID myConnectionID) 
+250629 154305.662|INFO|Thread-433|log|SocketException in receive for Socket[addr=/127.0.0.1,port=60250,localport=50002]--7846870997674501917
+|java.net.SocketException: Socket closed
+|    at sun.nio.ch.NioSocketImpl.endRead (NioSocketImpl.java:242)
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:322)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:345)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:790)
+|    at java.net.Socket$SocketInputStream.implRead (Socket.java:983)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:970)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:964)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2773)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3102)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3112)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1604)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:495)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:453)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:69)
+250629 154305.663|INFO|Thread-433|log|connectionDropped(ConnectionHandlerID myConnectionID) 
+250629 154305.672|INFO|Thread-466|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154305.672|INFO|Thread-465|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154311.147|INFO|Thread-3|log|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=60263,localport=50002]
+250629 154311.148|INFO|Thread-467|log|registerIncomingConnectionRequest(myConnectionID, thread) 
+250629 154311.153|INFO|Thread-467|log|Generating Unencrypted Public Key Packet
+250629 154311.154|INFO|Thread-468|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154311.155|INFO|Thread-467|log|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    7f65c488 75e885ed ca1d13c6 e2284885 2097da4e b6a97879 def0e374 28432450
+    e1c228f7 3579e870 3b8145f6 65cebcff 980b66fb fecc4340 5cc16550 6a9fc502
+    288e5beb 136ff521 08b80b11 2ef900a8 10040cd0 3fe1c712 55d5f402 0e0b2f2c
+    bbc3b2be 74112cf8 e21623e3 eac77869 ff5bc203 a310c547 c93e1aea 7c222e27
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+250629 154311.155|INFO|Thread-467|log|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@6a367760
+250629 154311.166|INFO|Thread-467|log|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=60263,localport=50002]-5484533991895125624)
+250629 154311.168|INFO|Thread-467|log|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=60263,localport=50002]-5484533991895125624 key is com.sun.crypto.provider.DESKey@d19b852d
+250629 154311.178|INFO|Thread-467|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154311.198|INFO|Thread-470|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60263,localport=50002]-5484533991895125624
+250629 154311.204|INFO|Thread-471|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154328.047|INFO|Thread-467|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154328.071|INFO|Thread-473|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60263,localport=50002]-5484533991895125624
+250629 154328.073|INFO|Thread-474|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154328.137|INFO|Thread-475|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60255,localport=50002]-2029895332128906280
+250629 154330.367|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154330.449|INFO|Thread-477|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154334.799|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154334.843|INFO|Thread-479|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154334.843|INFO|Thread-480|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60255,localport=50002]-2029895332128906280
+250629 154336.054|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154336.143|INFO|Thread-482|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154339.046|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154339.074|INFO|Thread-484|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154339.074|INFO|Thread-485|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60255,localport=50002]-2029895332128906280
+250629 154341.212|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154341.271|INFO|Thread-487|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154341.275|INFO|Thread-488|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154341.275|INFO|Thread-489|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60255,localport=50002]-2029895332128906280
+250629 154354.843|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154354.886|INFO|Thread-491|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154354.887|INFO|Thread-492|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60255,localport=50002]-2029895332128906280
+250629 154356.663|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154356.694|INFO|Thread-494|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154356.728|INFO|Thread-495|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154356.795|INFO|Thread-496|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60255,localport=50002]-2029895332128906280
+250629 154402.900|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154402.920|INFO|Thread-498|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60263,localport=50002]-5484533991895125624
+250629 154402.921|INFO|Thread-499|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154402.928|INFO|Thread-500|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60255,localport=50002]-2029895332128906280
+250629 154415.145|INFO|Thread-467|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154415.209|INFO|Thread-502|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60263,localport=50002]-5484533991895125624
+250629 154415.211|INFO|Thread-503|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154415.255|INFO|Thread-504|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60255,localport=50002]-2029895332128906280
+250629 154434.589|INFO|Thread-467|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154434.622|INFO|Thread-506|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60263,localport=50002]-5484533991895125624
+250629 154434.625|INFO|Thread-507|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154434.631|INFO|Thread-508|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60255,localport=50002]-2029895332128906280
+250629 154436.381|INFO|Thread-467|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154436.422|INFO|Thread-509|log|unregisterConnection(ConnectionHandlerID myConnectionID) 
+250629 154436.424|INFO|Thread-467|log|SocketException in receive for Socket[addr=/127.0.0.1,port=60263,localport=50002]-5484533991895125624
+|java.net.SocketException: Socket closed
+|    at sun.nio.ch.NioSocketImpl.endRead (NioSocketImpl.java:242)
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:322)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:345)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:790)
+|    at java.net.Socket$SocketInputStream.implRead (Socket.java:983)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:970)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:964)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2773)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3102)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3112)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1604)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:495)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:453)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:69)
+250629 154436.424|INFO|Thread-467|log|connectionDropped(ConnectionHandlerID myConnectionID) 
+250629 154436.434|INFO|Thread-510|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154436.434|INFO|Thread-511|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154439.541|INFO|Thread-429|log|SocketException in receive for Socket[addr=/127.0.0.1,port=60249,localport=50002]--1055304409583725641
+|java.net.SocketException: Connection reset
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:317)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:345)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:790)
+|    at java.net.Socket$SocketInputStream.implRead (Socket.java:983)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:970)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:964)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2773)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3102)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3112)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1604)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:495)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:453)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:69)
+250629 154439.542|INFO|Thread-429|log|connectionDropped(ConnectionHandlerID myConnectionID) 
+250629 154439.545|INFO|Thread-512|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154439.546|INFO|Thread-438|log|SocketException in receive for Socket[addr=/127.0.0.1,port=60255,localport=50002]-2029895332128906280
+|java.net.SocketException: Connection reset
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:317)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:345)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:790)
+|    at java.net.Socket$SocketInputStream.implRead (Socket.java:983)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:970)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:964)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2773)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3102)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3112)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1604)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:495)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:453)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:69)
+250629 154439.546|INFO|Thread-438|log|connectionDropped(ConnectionHandlerID myConnectionID) 
+250629 154439.581|INFO|Thread-513|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154439.584|INFO|Thread-514|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154441.738|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154441.775|INFO|Thread-516|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154445.057|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154445.084|INFO|Thread-518|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154447.594|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154447.633|INFO|Thread-520|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154448.504|INFO|Thread-2|log|ContestClockMonitorThread - stopping contest at site 1, remaining = 0
+250629 154448.518|INFO|Thread-521|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154451.806|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154451.829|INFO|Thread-523|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154454.386|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154454.421|INFO|Thread-525|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154454.433|INFO|Thread-526|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154503.955|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154503.984|INFO|Thread-528|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154506.833|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154506.856|INFO|Thread-530|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154506.857|INFO|Thread-531|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154516.377|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154516.412|INFO|Thread-533|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 154526.800|INFO|Thread-4|log|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+250629 154526.835|INFO|Thread-535|log|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+250629 155114.622|INFO|Thread-4|log|SocketException in receive for Socket[addr=/127.0.0.1,port=60148,localport=50002]-1044801867879266114
+|java.net.SocketException: Connection reset
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:317)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:345)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:790)
+|    at java.net.Socket$SocketInputStream.implRead (Socket.java:983)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:970)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:964)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2773)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3102)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3112)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1604)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:495)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:453)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:69)
+250629 155114.622|INFO|Thread-4|log|connectionDropped(ConnectionHandlerID myConnectionID) 

@@ -1,0 +1,39 @@
+250629 151223.871|CONFIG|main|log|Now logging to C:\pc2\TestContest\config\logs directory.
+250629 151223.881|INFO|main|log|
+250629 151223.894|INFO|main|log|Version 9.11build 20250513 (Tuesday, May 13th 2025 22:59 UTC) Java ver 24.0.1 build 7207~develop Windows 10 10.0 (amd64) 
+250629 151223.895|INFO|main|log|Working directory is C:\pc2\TestContest\config
+250629 151223.939|INFO|main|log|Process id is 1324@LAPTOP-HOME2
+250629 151223.941|INFO|main|log|Starting ConnectionManager...
+250629 151224.065|INFO|main|log|Started ConnectionManager
+250629 151224.069|INFO|main|log|INIFile File location: file:/C:/pc2/TestContest/config/pc2v9.ini
+250629 151224.077|INFO|main|log|setClientServerAndPort localhost parsed as localhost port 50002
+250629 151224.078|INFO|main|log|Contacting server at localhost:50002
+250629 151224.079|INFO|main|log|Connecting to localhost:50002
+250629 151224.171|INFO|Thread-1|log|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=localhost/127.0.0.1,port=50002,localport=60148]--6795246787689525194)
+250629 151224.193|INFO|Thread-1|log|receiveUnencrypted Made a secret key for Socket[addr=localhost/127.0.0.1,port=50002,localport=60148]--6795246787689525194 key is com.sun.crypto.provider.DESKey@27fe71b1
+250629 151224.194|INFO|Thread-1|log|Generating Unencrypted Public Key Packet
+250629 151224.197|INFO|Thread-1|log|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    d1e938f3 705e94b4 4a7abbf2 88e66b55 8a91b901 e603e73d 672eaf8c bf265342
+    dcfce464 054ea016 bc9c720d 11f2e032 5cd72bfa 9f7f14c7 315a7d74 0e20c056
+    fb4d1c08 50daec10 34b1eeec ac6c0e65 948a34ef 57bdf774 0156fcf2 dd4f0e9e
+    df816f99 144062df 4f3db7c9 0a7a6dab 0e4c7668 eef84193 2b8a0db5 f41f51db
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+250629 151224.197|INFO|Thread-1|log|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@6a4d1ced
+250629 151224.446|FINER|main|log|FrameUtilities.loadAndVerifyImageFile(): searching for image file 'images/PC2Logo.png' in jar files
+250629 151224.447|FINER|main|log|FrameUtilities.loadAndVerifyImageFile(): found image file 'images/PC2Logo.png' at URL 'jar:file:/C:/pc2/pc2-9.11build-7207.develop/lib/pc2.jar!/images/PC2Logo.png'
+250629 151224.448|FINER|main|log|FrameUtilities.loadAndVerifyImageFile(): found image file 'images/PC2Logo.png'; verifying checksum
+250629 151225.157|FINER|main|log|FrameUtilities.loadAndVerifyImageFile(): searching for image file 'images/csus_logo.png' in jar files
+250629 151225.159|FINER|main|log|FrameUtilities.loadAndVerifyImageFile(): found image file 'images/csus_logo.png' at URL 'jar:file:/C:/pc2/pc2-9.11build-7207.develop/lib/pc2.jar!/images/csus_logo.png'
+250629 151225.160|FINER|main|log|FrameUtilities.loadAndVerifyImageFile(): found image file 'images/csus_logo.png'; verifying checksum
+250629 151225.166|FINER|main|log|FrameUtilities.loadAndVerifyImageFile(): searching for image file 'images/ICPCWebMast_small.png' in jar files
+250629 151225.168|FINER|main|log|FrameUtilities.loadAndVerifyImageFile(): found image file 'images/ICPCWebMast_small.png' at URL 'jar:file:/C:/pc2/pc2-9.11build-7207.develop/lib/pc2.jar!/images/ICPCWebMast_small.png'
+250629 151225.169|FINER|main|log|FrameUtilities.loadAndVerifyImageFile(): found image file 'images/ICPCWebMast_small.png'; verifying checksum

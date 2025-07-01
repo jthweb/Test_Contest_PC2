@@ -1,0 +1,55 @@
+languages:
+  - name: 'Java'
+    compilerCmd: 'cmd /c javac {:mainfile}'
+    exemask: '{:basename}.class'
+    execCmd: 'java {:package}{:basename}'
+    runner: 'java'
+    runner-args: '{:package}{:basename}'
+    interpreted: false
+    use-judge-cmd: false
+    judge-exec-cmd: 'java {:package}{:basename}'
+    clics-id : 'java'
+
+  - name: 'Python 3'
+    compilerCmd: 'pypy3 -m py_compile {files}'
+    exemask: 'null'
+    execCmd: 'pypy3 {files}'
+    runner: 'pypy3'
+    runner-args: '{files}'
+    interpreted: true
+    use-judge-cmd: false
+    judge-exec-cmd: 'pypy3 {files}'
+    clics-id : 'python3'
+
+  - name: 'C++'
+    compilerCmd: 'g++ -o program {files}'
+    exemask: 'program.exe'
+    execCmd: './program.exe'
+    runner: './program.exe'
+    runner-args: ''
+    interpreted: false
+    use-judge-cmd: false
+    judge-exec-cmd: './program.exe'
+    clics-id : 'cpp'
+
+  - name: 'C'
+    compilerCmd: 'gcc -o program {files}'
+    exemask: 'program.exe'
+    execCmd: './program.exe'
+    runner: './program.exe'
+    runner-args: ''
+    interpreted: false
+    use-judge-cmd: false
+    judge-exec-cmd: './program.exe'
+    clics-id : 'c'
+
+  - name: 'Kotlin'
+    compilerCmd: 'cmd /c kotlinc {:mainfile} -include-runtime -d {:basename}.jar'
+    exemask: '{:basename}.jar'
+    execCmd: 'java -jar {:basename}.jar'
+    runner: 'java'
+    runner-args: '-jar {:basename}.jar'
+    interpreted: false
+    use-judge-cmd: false
+    judge-exec-cmd: 'java -jar {:basename}.jar'
+    clics-id : 'kotlin'

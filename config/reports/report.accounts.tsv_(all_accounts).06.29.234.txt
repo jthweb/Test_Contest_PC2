@@ -1,0 +1,32 @@
+accounts	1	
+administrator	1	administrator1	administrator1	administrator1
+administrator	2	administrator2	administrator2	administrator2
+team	1	BYU Mavericks	team1	team1
+team	2	BYU Trailblazers	team2	team2
+team	3	BYU Innovators	team3	team3
+team	4	CMU Codebreakers	team4	team4
+team	5	CMU Innovators	team5	team5
+team	6	CMU Pioneers	team6	team6
+team	7	Tech Titans	team7	team7
+team	8	Georgia Tech Pioneers	team8	team8
+team	9	Georgia Tech Warriors	team9	team9
+team	10	Harvard Visionaries	team10	team10
+team	11	Harvard Scholars	team11	team11
+team	12	Harvard Innovators	team12	team12
+team	13	MIT Mavericks	team13	team13
+team	14	MIT Innovators	team14	team14
+team	15	MIT Visionaries	team15	team15
+team	16	Yale Guardians	team16	team16
+team	17	Yale Trailblazers	team17	team17
+team	18	Yale Scholars	team18	team18
+team	19	Northwestern Knights	team19	team19
+team	20	Northwestern Eagles	team20	team20
+team	21	Northwestern Innovators	team21	team21
+judge	1	judge1	judge1	judge1
+judge	2	judge2	judge2	judge2
+judge	3	judge3	judge3	judge3
+judge	4	judge4	judge4	judge4
+judge	5	judge5	judge5	judge5
+scoreboard	1	scoreboard1	scoreboard1	scoreboard1
+scoreboard	2	scoreboard2	scoreboard2	scoreboard2
+scoreboard	3	scoreboard3	scoreboard3	scoreboard3

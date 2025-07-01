@@ -1,0 +1,2 @@
+CLICS Validator outputing judgement 'accepted' to feedback file '1487XRSAM.1\judgement.txt'
+Exiting Clics Validator main() with exit code 42

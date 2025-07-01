@@ -1,0 +1,45 @@
+problems:
+  - letter:     A
+    short-name: Box
+    color:      Red
+    rgb:        '#ff0000'
+
+  - letter:     B
+    short-name: Colour
+    color:      Yellow
+    rgb:        '#ffff00'
+
+  - letter:     C
+    short-name: Game
+    color:      Light Green
+    rgb:        '#80ff00'
+
+  - letter:     D
+    short-name: Hello
+    color:      Dark Green
+    rgb:        '#004000'
+
+  - letter:     E
+    short-name: Magic
+    color:      Turquoise
+    rgb:        '#00ffff'
+
+  - letter:     F
+    short-name: Matrix
+    color:      Blue
+    rgb:        '#0000ff'
+
+  - letter:     G
+    short-name: Rooms
+    color:      Navy Blue
+    rgb:        '#000040'
+
+  - letter:     H
+    short-name: SumIt
+    color:      Pink
+    rgb:        '#ff0080'
+
+  - letter:     I
+    short-name: Tax
+    color:      Purple
+    rgb:        '#400080'

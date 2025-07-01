@@ -1,0 +1,776 @@
+CSUS Programming Contest Control System
+Date: Sunday, 29 June 2025, 15:51:17 GMT+03:00
+Version 9.11build 20250513 (Tuesday, May 13th 2025 22:59 UTC) Java ver 24.0.1 build 7207~develop Windows 10 10.0 (amd64) 
+
+Problems Report
+
+Contest date/time: Sun Jun 29 15:14:47 GMT+03:00 2025
+
+-- 9 problems --
+
+  Location for Judges CDP / problem config : 'C:\pc2\TestContest\config'
+  Location for  Admin CDP / problem config : ''
+
+  Problem 'Box Packing' ver=1 id=Box--2828595218804381709
+       Short name       : Box
+       Letter           : A
+       Data file name   : 1001.in
+       Answer file name : 1001.ans
+       Read from stdin  : Yes
+       Number test cases: 3
+       Stop on 1st fail : Yes
+       Balloon color    : Red
+       Balloon RGB      : #ff0000
+   Groups who can view  : All (1)
+
+   Execution time limit : 120 seconds   Memory limit         : 0 MB
+        Computer Judged : true
+         Manual Review  : false
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : CLICSVALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.clicsValidator.ClicsValidator
+     Validator cmd line : {:validator} {:infile} {:ansfile} {:feedbackdir} 
+     Validator option # : 1
+    Using pc2 validator : false
+     Validator cmd line : {:validator} {:infile} {:ansfile} {:feedbackdir} 
+     Validator option # : 1
+    Using pc2 validator : false
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 1 false";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=true];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  useInteractiveValidatorInterface=false;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+  Sandbox Type          : NONE
+  Sandbox program name  : 
+  Sandbox command line  : 
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ Viva input validator status : NOT_TESTED
+ Custom input validator status : NOT_TESTED
+
+   Using external files : true path = C:\pc2\TestContest\config\Box
+       Data File name 1 : 1001.in
+     Answer File name 1 : 1001.ans
+       Data File name 2 : 1002.in
+     Answer File name 2 : 1002.ans
+       Data File name 3 : 1003.in
+     Answer File name 3 : 1003.ans
+                  3 judge data files
+                    judge data file '1001.in' 0 bytes, External C:\pc2\TestContest\config\Box\data\secret SHA1 = -2-59-54124-4-927119-908859-35-710843-53-84-37-100106
+                    judge data file '1002.in' 0 bytes, External C:\pc2\TestContest\config\Box\data\secret SHA1 = 6852071-30100-11097-96-106-535125-3552-124-75-12642-17
+                    judge data file '1003.in' 0 bytes, External C:\pc2\TestContest\config\Box\data\secret SHA1 = 5-3733100-9716-65-99-85-107-329795117108127122754090
+                  3 judge answer files
+                    judge ans. file '1001.ans' 0 bytes, External C:\pc2\TestContest\config\Box\data\secret SHA1 = 28-5865-10764-103-6273-32-28-1742-3863-485477-107-16
+                    judge ans. file '1002.ans' 0 bytes, External C:\pc2\TestContest\config\Box\data\secret SHA1 = 53106254312119-807684877724-62-11570-26578440-85
+                    judge ans. file '1003.ans' 0 bytes, External C:\pc2\TestContest\config\Box\data\secret SHA1 = -1039575-11282-47-7867-86-10515-972-6119-125746067-65
+                  * No validator files *
+
+  Problem 'The Colourful Boxes' ver=1 id=Colour-6849622617641091980
+       Short name       : Colour
+       Letter           : B
+       Data file name   : 1001.in
+       Answer file name : 1001.ans
+       Read from stdin  : Yes
+       Number test cases: 1
+       Stop on 1st fail : Yes
+       Balloon color    : Yellow
+       Balloon RGB      : #ffff00
+   Groups who can view  : All (1)
+
+   Execution time limit : 120 seconds   Memory limit         : 0 MB
+        Computer Judged : true
+         Manual Review  : false
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : CLICSVALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.clicsValidator.ClicsValidator
+     Validator cmd line : {:validator} {:infile} {:ansfile} {:feedbackdir} 
+     Validator option # : 1
+    Using pc2 validator : false
+     Validator cmd line : {:validator} {:infile} {:ansfile} {:feedbackdir} 
+     Validator option # : 1
+    Using pc2 validator : false
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 1 false";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=true];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  useInteractiveValidatorInterface=false;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+  Sandbox Type          : NONE
+  Sandbox program name  : 
+  Sandbox command line  : 
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ Viva input validator status : NOT_TESTED
+ Custom input validator status : NOT_TESTED
+
+   Using external files : true path = C:\pc2\TestContest\config\Colour
+                  1 judge data files
+                    judge data file '1001.in' 0 bytes, External C:\pc2\TestContest\config\Colour\data\secret SHA1 = -12110-11116121-12468-35-406762-1201065113-7965120-31114
+                  1 judge answer files
+                    judge ans. file '1001.ans' 0 bytes, External C:\pc2\TestContest\config\Colour\data\secret SHA1 = -15-85-4211253-11431084941110102-77-741085642-64818
+                  * No validator files *
+
+  Problem 'Game' ver=1 id=Game-2960627001719412323
+       Short name       : Game
+       Letter           : C
+       Data file name   : 1001.in
+       Answer file name : 1001.ans
+       Read from stdin  : Yes
+       Number test cases: 6
+       Stop on 1st fail : Yes
+       Balloon color    : Light Green
+       Balloon RGB      : #80ff00
+   Groups who can view  : All (1)
+
+   Execution time limit : 120 seconds   Memory limit         : 0 MB
+        Computer Judged : true
+         Manual Review  : false
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : CLICSVALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.clicsValidator.ClicsValidator
+     Validator cmd line : {:validator} {:infile} {:ansfile} {:feedbackdir} 
+     Validator option # : 1
+    Using pc2 validator : false
+     Validator cmd line : {:validator} {:infile} {:ansfile} {:feedbackdir} 
+     Validator option # : 1
+    Using pc2 validator : false
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 1 false";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=true];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  useInteractiveValidatorInterface=false;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+  Sandbox Type          : NONE
+  Sandbox program name  : 
+  Sandbox command line  : 
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ Viva input validator status : NOT_TESTED
+ Custom input validator status : NOT_TESTED
+
+   Using external files : true path = C:\pc2\TestContest\config\Game
+       Data File name 1 : 1001.in
+     Answer File name 1 : 1001.ans
+       Data File name 2 : 1002.in
+     Answer File name 2 : 1002.ans
+       Data File name 3 : 1003.in
+     Answer File name 3 : 1003.ans
+       Data File name 4 : 1004.in
+     Answer File name 4 : 1004.ans
+       Data File name 5 : 1005.in
+     Answer File name 5 : 1005.ans
+       Data File name 6 : 1006.in
+     Answer File name 6 : 1006.ans
+                  6 judge data files
+                    judge data file '1001.in' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = 78-13-8996-25108535-2036-6379117-76-1-44-462176-100
+                    judge data file '1002.in' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = 883421009171959677-58-41-275819-12435-1154667-2
+                    judge data file '1003.in' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = -37-64-164-1236887-11-97-79106-7299-93-9511444-178563
+                    judge data file '1004.in' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = -13-82-1631-79-62-703669-39-8764229-48-10018-10995111
+                    judge data file '1005.in' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = -59-73109-93-268-4578-3773676-39-72117-18-122-1129940
+                    judge data file '1006.in' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = 53106254312119-807684877724-62-11570-26578440-85
+                  6 judge answer files
+                    judge ans. file '1001.ans' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = 1912534-110-9953-90114211181031790-21-68-45-82148
+                    judge ans. file '1002.ans' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = 227-36-1366107-65-75122-56-17-514185-98-11025-2110471
+                    judge ans. file '1003.ans' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = 4911-122-32-7443-126-12398-4-111-57-6683-128-87-110-78120106
+                    judge ans. file '1004.ans' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = 122-121-119119-87-113-15-99-66-61-95-638860-4-90161012-47
+                    judge ans. file '1005.ans' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = -875173-121-20-25-117111-24-651914-1611116-1241242961-90
+                    judge ans. file '1006.ans' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = -7488-97-58-8513-5644-1532-103-47-62-4410-71-108-246512
+                  * No validator files *
+
+  Problem 'Hello World' ver=1 id=Hello-2094220367291565483
+       Short name       : Hello
+       Letter           : D
+       Data file name   : 1001.in
+       Answer file name : 1001.ans
+       Read from stdin  : Yes
+       Number test cases: 1
+       Stop on 1st fail : Yes
+       Balloon color    : Dark Green
+       Balloon RGB      : #004000
+   Groups who can view  : All (1)
+
+   Execution time limit : 120 seconds   Memory limit         : 0 MB
+        Computer Judged : true
+         Manual Review  : false
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : CLICSVALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.clicsValidator.ClicsValidator
+     Validator cmd line : {:validator} {:infile} {:ansfile} {:feedbackdir} 
+     Validator option # : 1
+    Using pc2 validator : false
+     Validator cmd line : {:validator} {:infile} {:ansfile} {:feedbackdir} 
+     Validator option # : 1
+    Using pc2 validator : false
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 1 false";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=true];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  useInteractiveValidatorInterface=false;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+  Sandbox Type          : NONE
+  Sandbox program name  : 
+  Sandbox command line  : 
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ Viva input validator status : NOT_TESTED
+ Custom input validator status : NOT_TESTED
+
+   Using external files : true path = C:\pc2\TestContest\config\Hello
+                  1 judge data files
+                    judge data file '1001.in' 0 bytes, External C:\pc2\TestContest\config\Hello\data\secret SHA1 = 51127-76-7732-9738890-27-837323-44-23-110-5954-39-118
+                  1 judge answer files
+                    judge ans. file '1001.ans' 0 bytes, External C:\pc2\TestContest\config\Hello\data\secret SHA1 = 51127-76-7732-9738890-27-837323-44-23-110-5954-39-118
+                  * No validator files *
+
+  Problem 'The Magic Garden' ver=1 id=Magic--1428494363027566808
+       Short name       : Magic
+       Letter           : E
+       Data file name   : 1001.in
+       Answer file name : 1001.ans
+       Read from stdin  : Yes
+       Number test cases: 4
+       Stop on 1st fail : Yes
+       Balloon color    : Turquoise
+       Balloon RGB      : #00ffff
+   Groups who can view  : All (1)
+
+   Execution time limit : 120 seconds   Memory limit         : 0 MB
+        Computer Judged : true
+         Manual Review  : false
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : CLICSVALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.clicsValidator.ClicsValidator
+     Validator cmd line : {:validator} {:infile} {:ansfile} {:feedbackdir} 
+     Validator option # : 1
+    Using pc2 validator : false
+     Validator cmd line : {:validator} {:infile} {:ansfile} {:feedbackdir} 
+     Validator option # : 1
+    Using pc2 validator : false
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 1 false";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=true];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  useInteractiveValidatorInterface=false;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+  Sandbox Type          : NONE
+  Sandbox program name  : 
+  Sandbox command line  : 
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ Viva input validator status : NOT_TESTED
+ Custom input validator status : NOT_TESTED
+
+   Using external files : true path = C:\pc2\TestContest\config\Magic
+       Data File name 1 : 1001.in
+     Answer File name 1 : 1001.ans
+       Data File name 2 : 1002.in
+     Answer File name 2 : 1002.ans
+       Data File name 3 : 1003.in
+     Answer File name 3 : 1003.ans
+       Data File name 4 : 1004.in
+     Answer File name 4 : 1004.ans
+                  4 judge data files
+                    judge data file '1001.in' 0 bytes, External C:\pc2\TestContest\config\Magic\data\secret SHA1 = -110-501100-6-91122-13-18-982135-497650-885-20-61-27
+                    judge data file '1002.in' 0 bytes, External C:\pc2\TestContest\config\Magic\data\secret SHA1 = 292-4627-43126-3829-83-33-2-64-83-64120-102-111794-73
+                    judge data file '1003.in' 0 bytes, External C:\pc2\TestContest\config\Magic\data\secret SHA1 = 10149-77-60-10011216-441081177-20125-119-12527343-8953
+                    judge data file '1004.in' 0 bytes, External C:\pc2\TestContest\config\Magic\data\secret SHA1 = -688-65-6457-4480-6131-20-9262-95-117-92-1167140126-108
+                  4 judge answer files
+                    judge ans. file '1001.ans' 0 bytes, External C:\pc2\TestContest\config\Magic\data\secret SHA1 = 2710083-11936115-92103-48115114-4494-8090-683249100122
+                    judge ans. file '1002.ans' 0 bytes, External C:\pc2\TestContest\config\Magic\data\secret SHA1 = 2710083-11936115-92103-48115114-4494-8090-683249100122
+                    judge ans. file '1003.ans' 0 bytes, External C:\pc2\TestContest\config\Magic\data\secret SHA1 = 2710083-11936115-92103-48115114-4494-8090-683249100122
+                    judge ans. file '1004.ans' 0 bytes, External C:\pc2\TestContest\config\Magic\data\secret SHA1 = 53106254312119-807684877724-62-11570-26578440-85
+                  * No validator files *
+
+  Problem 'The Matrix Problem' ver=1 id=Matrix-4872216535813282992
+       Short name       : Matrix
+       Letter           : F
+       Data file name   : 1001.in
+       Answer file name : 1001.ans
+       Read from stdin  : Yes
+       Number test cases: 3
+       Stop on 1st fail : Yes
+       Balloon color    : Blue
+       Balloon RGB      : #0000ff
+   Groups who can view  : All (1)
+
+   Execution time limit : 120 seconds   Memory limit         : 0 MB
+        Computer Judged : true
+         Manual Review  : false
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : CLICSVALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.clicsValidator.ClicsValidator
+     Validator cmd line : {:validator} {:infile} {:ansfile} {:feedbackdir} 
+     Validator option # : 1
+    Using pc2 validator : false
+     Validator cmd line : {:validator} {:infile} {:ansfile} {:feedbackdir} 
+     Validator option # : 1
+    Using pc2 validator : false
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 1 false";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=true];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  useInteractiveValidatorInterface=false;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+  Sandbox Type          : NONE
+  Sandbox program name  : 
+  Sandbox command line  : 
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ Viva input validator status : NOT_TESTED
+ Custom input validator status : NOT_TESTED
+
+   Using external files : true path = C:\pc2\TestContest\config\Matrix
+       Data File name 1 : 1001.in
+     Answer File name 1 : 1001.ans
+       Data File name 2 : 1002.in
+     Answer File name 2 : 1002.ans
+       Data File name 3 : 1003.in
+     Answer File name 3 : 1003.ans
+                  3 judge data files
+                    judge data file '1001.in' 0 bytes, External C:\pc2\TestContest\config\Matrix\data\secret SHA1 = 022-3121-115-3513434294-101-5511014-10870-31106103114
+                    judge data file '1002.in' 0 bytes, External C:\pc2\TestContest\config\Matrix\data\secret SHA1 = 102-103076-84-11189-10811496-17117111-6730-10011483-11197
+                    judge data file '1003.in' 0 bytes, External C:\pc2\TestContest\config\Matrix\data\secret SHA1 = 887628-33-49-3011949107-59-187554-12479-11388-57-48-90
+                  3 judge answer files
+                    judge ans. file '1001.ans' 0 bytes, External C:\pc2\TestContest\config\Matrix\data\secret SHA1 = -93-95-4890-6741901127232-122-11740-43-58107-68114-87-96
+                    judge ans. file '1002.ans' 0 bytes, External C:\pc2\TestContest\config\Matrix\data\secret SHA1 = -122-48-113120-3358-121-574955-39103-50-64-10-114-311-45-99
+                    judge ans. file '1003.ans' 0 bytes, External C:\pc2\TestContest\config\Matrix\data\secret SHA1 = 118-706581-12527-97-86-511711-103-1-12373-80-7447-11357
+                  * No validator files *
+
+  Problem 'Rooms' ver=1 id=Rooms--4449251640864417336
+       Short name       : Rooms
+       Letter           : G
+       Data file name   : 1001.in
+       Answer file name : 1001.ans
+       Read from stdin  : Yes
+       Number test cases: 6
+       Stop on 1st fail : Yes
+       Balloon color    : Navy Blue
+       Balloon RGB      : #000040
+   Groups who can view  : All (1)
+
+   Execution time limit : 120 seconds   Memory limit         : 0 MB
+        Computer Judged : true
+         Manual Review  : false
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : CLICSVALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.clicsValidator.ClicsValidator
+     Validator cmd line : {:validator} {:infile} {:ansfile} {:feedbackdir} 
+     Validator option # : 1
+    Using pc2 validator : false
+     Validator cmd line : {:validator} {:infile} {:ansfile} {:feedbackdir} 
+     Validator option # : 1
+    Using pc2 validator : false
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 1 false";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=true];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  useInteractiveValidatorInterface=false;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+  Sandbox Type          : NONE
+  Sandbox program name  : 
+  Sandbox command line  : 
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ Viva input validator status : NOT_TESTED
+ Custom input validator status : NOT_TESTED
+
+   Using external files : true path = C:\pc2\TestContest\config\Rooms
+       Data File name 1 : 1001.in
+     Answer File name 1 : 1001.ans
+       Data File name 2 : 1002.in
+     Answer File name 2 : 1002.ans
+       Data File name 3 : 1003.in
+     Answer File name 3 : 1003.ans
+       Data File name 4 : 1004.in
+     Answer File name 4 : 1004.ans
+       Data File name 5 : 1005.in
+     Answer File name 5 : 1005.ans
+       Data File name 6 : 1006.in
+     Answer File name 6 : 1006.ans
+                  6 judge data files
+                    judge data file '1001.in' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = 311998-2265-47-68101-6650281055-1183221-97-10238-48
+                    judge data file '1002.in' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = -10-3118108-19-21-14622099-82-2563-99-16-121-12510040
+                    judge data file '1003.in' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = -124-931104071-6158-645811435-7512312-12275-128-8538-56
+                    judge data file '1004.in' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = -74114118-78-32-9747-16-31-491475-7-12641-114210297-109
+                    judge data file '1005.in' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = -63-107-26-71-83-2185-11-2789-7032-16-25-206939-3721-40
+                    judge data file '1006.in' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = 53106254312119-807684877724-62-11570-26578440-85
+                  6 judge answer files
+                    judge ans. file '1001.ans' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = -77-16-57-10-6911858-15-66-111-39-2578-85-2-79-103-363131
+                    judge ans. file '1002.ans' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = -11243-93-51-95-1205618975110276939-112-5283-108-113-38
+                    judge ans. file '1003.ans' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = -6284-128100-22-1624-95-44-127-33-5-1030-5562-73-67-1719
+                    judge ans. file '1004.ans' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = 122-121-119119-87-113-15-99-66-61-95-638860-4-90161012-47
+                    judge ans. file '1005.ans' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = -76-7468798467-110-316711657108-48-728-6857-124959
+                    judge ans. file '1006.ans' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = 53106254312119-807684877724-62-11570-26578440-85
+                  * No validator files *
+
+  Problem 'Sumit' ver=1 id=SumIt-1254336815238433067
+       Short name       : SumIt
+       Letter           : H
+       Data file name   : sumit.in
+       Answer file name : sumit.ans
+       Read from stdin  : Yes
+       Number test cases: 7
+       Stop on 1st fail : Yes
+       Balloon color    : Pink
+       Balloon RGB      : #ff0080
+   Groups who can view  : All (1)
+
+   Execution time limit : 30 seconds   Memory limit         : 0 MB
+        Computer Judged : true
+         Manual Review  : false
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : CLICSVALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.clicsValidator.ClicsValidator
+     Validator cmd line : {:validator} {:infile} {:ansfile} {:feedbackdir} 
+     Validator option # : 1
+    Using pc2 validator : false
+     Validator cmd line : {:validator} {:infile} {:ansfile} {:feedbackdir} 
+     Validator option # : 1
+    Using pc2 validator : false
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 1 false";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=true];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  useInteractiveValidatorInterface=false;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+  Sandbox Type          : NONE
+  Sandbox program name  : 
+  Sandbox command line  : 
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ Viva input validator status : NOT_TESTED
+ Custom input validator status : NOT_TESTED
+
+   Using external files : true path = C:\pc2\TestContest\config\SumIt
+       Data File name 1 : sumit.in
+     Answer File name 1 : sumit.ans
+       Data File name 2 : sumit1.in
+     Answer File name 2 : sumit1.ans
+       Data File name 3 : sumit2.in
+     Answer File name 3 : sumit2.ans
+       Data File name 4 : sumit3.in
+     Answer File name 4 : sumit3.ans
+       Data File name 5 : sumit4.in
+     Answer File name 5 : sumit4.ans
+       Data File name 6 : sumit5.in
+     Answer File name 6 : sumit5.ans
+       Data File name 7 : sumit6.in
+     Answer File name 7 : sumit6.ans
+                  7 judge data files
+                    judge data file 'sumit.in' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = -179-26-110-901122-99-64-52-55-6346-987397-62-6532
+                    judge data file 'sumit1.in' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = 55-11226-110112-34-18420-5957123-4354-96-19-287547106
+                    judge data file 'sumit2.in' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = 88-33-59319-9362-72-121-91-109-1-85-77-99103-348462-53
+                    judge data file 'sumit3.in' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = -9582-49-7110532-102-28-91-6758-91740-707815-51315
+                    judge data file 'sumit4.in' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = -5952109-1115-3645710312458-45-57-267973-281916-50
+                    judge data file 'sumit5.in' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = 93-118-25103-70-126-54341021081001029-927122-549780
+                    judge data file 'sumit6.in' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = 402186106665-11118-5212423-113-126-611639-85-946373
+                  7 judge answer files
+                    judge ans. file 'sumit.ans' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = 14-11076341234650-112-108-31144156-107120120-79-100-70
+                    judge ans. file 'sumit1.ans' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = 36115102-59842-4768-12185-65119-597312-125-108-74-2525
+                    judge ans. file 'sumit2.ans' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = -14928353-44-12253-7222-123-22-62-46-12786359-202066
+                    judge ans. file 'sumit3.ans' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = -77-26-23-33-87-115012429883118-62125-110-14-7770
+                    judge ans. file 'sumit4.ans' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = -89-9109-29-3728454126852450-691994116-742980-56
+                    judge ans. file 'sumit5.ans' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = -1254512170-112-8755-26106375-74-101-40706953-5278-66
+                    judge ans. file 'sumit6.ans' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = 739879-42-36-1172211286123-94-31-389721112109636-55
+                  * No validator files *
+
+  Problem 'Tax Evasion' ver=1 id=Tax-8252357279511052601
+       Short name       : Tax
+       Letter           : I
+       Data file name   : 1001.in
+       Answer file name : 1001.ans
+       Read from stdin  : Yes
+       Number test cases: 6
+       Stop on 1st fail : Yes
+       Balloon color    : Purple
+       Balloon RGB      : #400080
+   Groups who can view  : All (1)
+
+   Execution time limit : 120 seconds   Memory limit         : 0 MB
+        Computer Judged : true
+         Manual Review  : false
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : CLICSVALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.clicsValidator.ClicsValidator
+     Validator cmd line : {:validator} {:infile} {:ansfile} {:feedbackdir} 
+     Validator option # : 1
+    Using pc2 validator : false
+     Validator cmd line : {:validator} {:infile} {:ansfile} {:feedbackdir} 
+     Validator option # : 1
+    Using pc2 validator : false
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 1 false";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=true];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  useInteractiveValidatorInterface=false;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+  Sandbox Type          : NONE
+  Sandbox program name  : 
+  Sandbox command line  : 
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ Viva input validator status : NOT_TESTED
+ Custom input validator status : NOT_TESTED
+
+   Using external files : true path = C:\pc2\TestContest\config\Tax
+       Data File name 1 : 1001.in
+     Answer File name 1 : 1001.ans
+       Data File name 2 : 1002.in
+     Answer File name 2 : 1002.ans
+       Data File name 3 : 1003.in
+     Answer File name 3 : 1003.ans
+       Data File name 4 : 1004.in
+     Answer File name 4 : 1004.ans
+       Data File name 5 : 1005.in
+     Answer File name 5 : 1005.ans
+       Data File name 6 : 1006.in
+     Answer File name 6 : 1006.ans
+                  6 judge data files
+                    judge data file '1001.in' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = 972654-101981-66-101123-86-108-8574-1195-9079-9-1-63
+                    judge data file '1002.in' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = -9-10487-1953-6736-43-7135-123-68-119117-3348-3614-15112
+                    judge data file '1003.in' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = 97-110-7279-122-77-82-1035-70-89103-70-12194-117881268154
+                    judge data file '1004.in' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = 68-96-93-1592-4-68-11823-63-6312-108103-53391-95-5997
+                    judge data file '1005.in' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = 5021-24-12111-8945-10680-19-1249-11-5462-9512111679105
+                    judge data file '1006.in' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = 103311263-545-113-1003171-42-100-35-61-1673-118-105360
+                  6 judge answer files
+                    judge ans. file '1001.ans' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = -68-24-49-1035804364-96-11895688-27-95-117769-12018
+                    judge ans. file '1002.ans' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = -68-24-49-1035804364-96-11895688-27-95-117769-12018
+                    judge ans. file '1003.ans' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = 52-61-981-37-79-11798-59-8223-105124-206453-119-443513
+                    judge ans. file '1004.ans' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = -68-24-49-1035804364-96-11895688-27-95-117769-12018
+                    judge ans. file '1005.ans' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = 52-61-981-37-79-11798-59-8223-105124-206453-119-443513
+                    judge ans. file '1006.ans' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = -9143621289-11142-5443-90-50-2461-34-49-1028536-35-87
+                  * No validator files *
+
+-- 9 problem data file sets --
+
+  Problem Data File set for The Magic Garden id=Magic--1428494363027566808
+                  4 judge data files
+                    judge data file '1001.in' 0 bytes, External C:\pc2\TestContest\config\Magic\data\secret SHA1 = -110-501100-6-91122-13-18-982135-497650-885-20-61-27
+                    judge data file '1002.in' 0 bytes, External C:\pc2\TestContest\config\Magic\data\secret SHA1 = 292-4627-43126-3829-83-33-2-64-83-64120-102-111794-73
+                    judge data file '1003.in' 0 bytes, External C:\pc2\TestContest\config\Magic\data\secret SHA1 = 10149-77-60-10011216-441081177-20125-119-12527343-8953
+                    judge data file '1004.in' 0 bytes, External C:\pc2\TestContest\config\Magic\data\secret SHA1 = -688-65-6457-4480-6131-20-9262-95-117-92-1167140126-108
+                  4 judge answer files
+                    judge ans. file '1001.ans' 0 bytes, External C:\pc2\TestContest\config\Magic\data\secret SHA1 = 2710083-11936115-92103-48115114-4494-8090-683249100122
+                    judge ans. file '1002.ans' 0 bytes, External C:\pc2\TestContest\config\Magic\data\secret SHA1 = 2710083-11936115-92103-48115114-4494-8090-683249100122
+                    judge ans. file '1003.ans' 0 bytes, External C:\pc2\TestContest\config\Magic\data\secret SHA1 = 2710083-11936115-92103-48115114-4494-8090-683249100122
+                    judge ans. file '1004.ans' 0 bytes, External C:\pc2\TestContest\config\Magic\data\secret SHA1 = 53106254312119-807684877724-62-11570-26578440-85
+                  * No validator files *
+
+  Problem Data File set for Tax Evasion id=Tax-8252357279511052601
+                  6 judge data files
+                    judge data file '1001.in' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = 972654-101981-66-101123-86-108-8574-1195-9079-9-1-63
+                    judge data file '1002.in' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = -9-10487-1953-6736-43-7135-123-68-119117-3348-3614-15112
+                    judge data file '1003.in' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = 97-110-7279-122-77-82-1035-70-89103-70-12194-117881268154
+                    judge data file '1004.in' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = 68-96-93-1592-4-68-11823-63-6312-108103-53391-95-5997
+                    judge data file '1005.in' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = 5021-24-12111-8945-10680-19-1249-11-5462-9512111679105
+                    judge data file '1006.in' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = 103311263-545-113-1003171-42-100-35-61-1673-118-105360
+                  6 judge answer files
+                    judge ans. file '1001.ans' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = -68-24-49-1035804364-96-11895688-27-95-117769-12018
+                    judge ans. file '1002.ans' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = -68-24-49-1035804364-96-11895688-27-95-117769-12018
+                    judge ans. file '1003.ans' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = 52-61-981-37-79-11798-59-8223-105124-206453-119-443513
+                    judge ans. file '1004.ans' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = -68-24-49-1035804364-96-11895688-27-95-117769-12018
+                    judge ans. file '1005.ans' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = 52-61-981-37-79-11798-59-8223-105124-206453-119-443513
+                    judge ans. file '1006.ans' 0 bytes, External C:\pc2\TestContest\config\Tax\data\secret SHA1 = -9143621289-11142-5443-90-50-2461-34-49-1028536-35-87
+                  * No validator files *
+
+  Problem Data File set for Game id=Game-2960627001719412323
+                  6 judge data files
+                    judge data file '1001.in' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = 78-13-8996-25108535-2036-6379117-76-1-44-462176-100
+                    judge data file '1002.in' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = 883421009171959677-58-41-275819-12435-1154667-2
+                    judge data file '1003.in' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = -37-64-164-1236887-11-97-79106-7299-93-9511444-178563
+                    judge data file '1004.in' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = -13-82-1631-79-62-703669-39-8764229-48-10018-10995111
+                    judge data file '1005.in' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = -59-73109-93-268-4578-3773676-39-72117-18-122-1129940
+                    judge data file '1006.in' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = 53106254312119-807684877724-62-11570-26578440-85
+                  6 judge answer files
+                    judge ans. file '1001.ans' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = 1912534-110-9953-90114211181031790-21-68-45-82148
+                    judge ans. file '1002.ans' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = 227-36-1366107-65-75122-56-17-514185-98-11025-2110471
+                    judge ans. file '1003.ans' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = 4911-122-32-7443-126-12398-4-111-57-6683-128-87-110-78120106
+                    judge ans. file '1004.ans' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = 122-121-119119-87-113-15-99-66-61-95-638860-4-90161012-47
+                    judge ans. file '1005.ans' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = -875173-121-20-25-117111-24-651914-1611116-1241242961-90
+                    judge ans. file '1006.ans' 0 bytes, External C:\pc2\TestContest\config\Game\data\secret SHA1 = -7488-97-58-8513-5644-1532-103-47-62-4410-71-108-246512
+                  * No validator files *
+
+  Problem Data File set for The Colourful Boxes id=Colour-6849622617641091980
+                  1 judge data files
+                    judge data file '1001.in' 0 bytes, External C:\pc2\TestContest\config\Colour\data\secret SHA1 = -12110-11116121-12468-35-406762-1201065113-7965120-31114
+                  1 judge answer files
+                    judge ans. file '1001.ans' 0 bytes, External C:\pc2\TestContest\config\Colour\data\secret SHA1 = -15-85-4211253-11431084941110102-77-741085642-64818
+                  * No validator files *
+
+  Problem Data File set for Sumit id=SumIt-1254336815238433067
+                  7 judge data files
+                    judge data file 'sumit.in' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = -179-26-110-901122-99-64-52-55-6346-987397-62-6532
+                    judge data file 'sumit1.in' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = 55-11226-110112-34-18420-5957123-4354-96-19-287547106
+                    judge data file 'sumit2.in' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = 88-33-59319-9362-72-121-91-109-1-85-77-99103-348462-53
+                    judge data file 'sumit3.in' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = -9582-49-7110532-102-28-91-6758-91740-707815-51315
+                    judge data file 'sumit4.in' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = -5952109-1115-3645710312458-45-57-267973-281916-50
+                    judge data file 'sumit5.in' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = 93-118-25103-70-126-54341021081001029-927122-549780
+                    judge data file 'sumit6.in' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = 402186106665-11118-5212423-113-126-611639-85-946373
+                  7 judge answer files
+                    judge ans. file 'sumit.ans' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = 14-11076341234650-112-108-31144156-107120120-79-100-70
+                    judge ans. file 'sumit1.ans' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = 36115102-59842-4768-12185-65119-597312-125-108-74-2525
+                    judge ans. file 'sumit2.ans' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = -14928353-44-12253-7222-123-22-62-46-12786359-202066
+                    judge ans. file 'sumit3.ans' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = -77-26-23-33-87-115012429883118-62125-110-14-7770
+                    judge ans. file 'sumit4.ans' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = -89-9109-29-3728454126852450-691994116-742980-56
+                    judge ans. file 'sumit5.ans' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = -1254512170-112-8755-26106375-74-101-40706953-5278-66
+                    judge ans. file 'sumit6.ans' 0 bytes, External C:\pc2\TestContest\config\SumIt\data\secret SHA1 = 739879-42-36-1172211286123-94-31-389721112109636-55
+                  * No validator files *
+
+  Problem Data File set for Hello World id=Hello-2094220367291565483
+                  1 judge data files
+                    judge data file '1001.in' 0 bytes, External C:\pc2\TestContest\config\Hello\data\secret SHA1 = 51127-76-7732-9738890-27-837323-44-23-110-5954-39-118
+                  1 judge answer files
+                    judge ans. file '1001.ans' 0 bytes, External C:\pc2\TestContest\config\Hello\data\secret SHA1 = 51127-76-7732-9738890-27-837323-44-23-110-5954-39-118
+                  * No validator files *
+
+  Problem Data File set for Box Packing id=Box--2828595218804381709
+                  3 judge data files
+                    judge data file '1001.in' 0 bytes, External C:\pc2\TestContest\config\Box\data\secret SHA1 = -2-59-54124-4-927119-908859-35-710843-53-84-37-100106
+                    judge data file '1002.in' 0 bytes, External C:\pc2\TestContest\config\Box\data\secret SHA1 = 6852071-30100-11097-96-106-535125-3552-124-75-12642-17
+                    judge data file '1003.in' 0 bytes, External C:\pc2\TestContest\config\Box\data\secret SHA1 = 5-3733100-9716-65-99-85-107-329795117108127122754090
+                  3 judge answer files
+                    judge ans. file '1001.ans' 0 bytes, External C:\pc2\TestContest\config\Box\data\secret SHA1 = 28-5865-10764-103-6273-32-28-1742-3863-485477-107-16
+                    judge ans. file '1002.ans' 0 bytes, External C:\pc2\TestContest\config\Box\data\secret SHA1 = 53106254312119-807684877724-62-11570-26578440-85
+                    judge ans. file '1003.ans' 0 bytes, External C:\pc2\TestContest\config\Box\data\secret SHA1 = -1039575-11282-47-7867-86-10515-972-6119-125746067-65
+                  * No validator files *
+
+  Problem Data File set for The Matrix Problem id=Matrix-4872216535813282992
+                  3 judge data files
+                    judge data file '1001.in' 0 bytes, External C:\pc2\TestContest\config\Matrix\data\secret SHA1 = 022-3121-115-3513434294-101-5511014-10870-31106103114
+                    judge data file '1002.in' 0 bytes, External C:\pc2\TestContest\config\Matrix\data\secret SHA1 = 102-103076-84-11189-10811496-17117111-6730-10011483-11197
+                    judge data file '1003.in' 0 bytes, External C:\pc2\TestContest\config\Matrix\data\secret SHA1 = 887628-33-49-3011949107-59-187554-12479-11388-57-48-90
+                  3 judge answer files
+                    judge ans. file '1001.ans' 0 bytes, External C:\pc2\TestContest\config\Matrix\data\secret SHA1 = -93-95-4890-6741901127232-122-11740-43-58107-68114-87-96
+                    judge ans. file '1002.ans' 0 bytes, External C:\pc2\TestContest\config\Matrix\data\secret SHA1 = -122-48-113120-3358-121-574955-39103-50-64-10-114-311-45-99
+                    judge ans. file '1003.ans' 0 bytes, External C:\pc2\TestContest\config\Matrix\data\secret SHA1 = 118-706581-12527-97-86-511711-103-1-12373-80-7447-11357
+                  * No validator files *
+
+  Problem Data File set for Rooms id=Rooms--4449251640864417336
+                  6 judge data files
+                    judge data file '1001.in' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = 311998-2265-47-68101-6650281055-1183221-97-10238-48
+                    judge data file '1002.in' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = -10-3118108-19-21-14622099-82-2563-99-16-121-12510040
+                    judge data file '1003.in' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = -124-931104071-6158-645811435-7512312-12275-128-8538-56
+                    judge data file '1004.in' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = -74114118-78-32-9747-16-31-491475-7-12641-114210297-109
+                    judge data file '1005.in' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = -63-107-26-71-83-2185-11-2789-7032-16-25-206939-3721-40
+                    judge data file '1006.in' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = 53106254312119-807684877724-62-11570-26578440-85
+                  6 judge answer files
+                    judge ans. file '1001.ans' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = -77-16-57-10-6911858-15-66-111-39-2578-85-2-79-103-363131
+                    judge ans. file '1002.ans' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = -11243-93-51-95-1205618975110276939-112-5283-108-113-38
+                    judge ans. file '1003.ans' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = -6284-128100-22-1624-95-44-127-33-5-1030-5562-73-67-1719
+                    judge ans. file '1004.ans' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = 122-121-119119-87-113-15-99-66-61-95-638860-4-90161012-47
+                    judge ans. file '1005.ans' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = -76-7468798467-110-316711657108-48-728-6857-124959
+                    judge ans. file '1006.ans' 0 bytes, External C:\pc2\TestContest\config\Rooms\data\secret SHA1 = 53106254312119-807684877724-62-11570-26578440-85
+                  * No validator files *
+ Categories:
+  General
+
+end report

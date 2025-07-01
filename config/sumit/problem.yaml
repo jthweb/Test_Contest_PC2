@@ -1,0 +1,15 @@
+name: Sumit
+source: 
+author: 
+license: 
+rights_owner: 
+
+validator: 
+   validatorProg: pc2.jar edu.csus.ecs.pc2.validator.Validator
+   validatorCmd: '{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 1 false'
+   usingInternal: true
+   validatorOption: 1
+
+input: 
+   readFromSTDIN: true
+

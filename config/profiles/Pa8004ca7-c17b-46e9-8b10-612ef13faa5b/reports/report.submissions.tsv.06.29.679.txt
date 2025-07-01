@@ -1,0 +1,26 @@
+CSUS Programming Contest Control System
+Date: Sunday, 29 June 2025, 15:51:18 GMT+03:00
+Version 9.11build 20250513 (Tuesday, May 13th 2025 22:59 UTC) Java ver 24.0.1 build 7207~develop Windows 10 10.0 (amd64) 
+
+submissions.tsv Report
+1	4	Matrix	81186	AC
+2	2	Colour	127962	AC
+3	2	Magic	169797	AC
+4	18	SumIt	237641	AC
+5	18	Game	271761	CE
+6	9	Hello	314172	AC
+7	1	Rooms	360000	AC
+8	1	Colour	480000	AC
+9	1	Matrix	480000	AC
+10	5	Matrix	720000	AC
+11	5	Colour	720000	AC
+12	5	Game	720000	AC
+13	5	SumIt	780000	AC
+14	21	Hello	960000	AC
+15	10	Hello	1620000	AC
+16	10	Matrix	1680000	AC
+17	13	Magic	1680000	AC
+18	13	Game	1740000	AC
+19	13	Colour	1740000	AC
+
+end report

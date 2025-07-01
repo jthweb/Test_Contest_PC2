@@ -1,0 +1,280 @@
+CSUS Programming Contest Control System
+Date: Sunday, 29 June 2025, 15:51:17 GMT+03:00
+Version 9.11build 20250513 (Tuesday, May 13th 2025 22:59 UTC) Java ver 24.0.1 build 7207~develop Windows 10 10.0 (amd64) 
+
+Runs grouped by team Report
+Filter: Filter ON
+
+team1 Site 1 - 'BYU Mavericks'
+   Problem Box Packing
+             No submissions.
+
+   Problem The Colourful Boxes
+       8   8 JUDGED Yes C++
+             1 submissions.  SOLVED @ 8 mins.
+
+   Problem Game
+             No submissions.
+
+   Problem Hello World
+             No submissions.
+
+   Problem The Magic Garden
+             No submissions.
+
+   Problem The Matrix Problem
+       9   8 JUDGED Yes Kotlin
+             1 submissions.  SOLVED @ 8 mins.
+
+   Problem Rooms
+       7   6 JUDGED Yes Python 3
+             1 submissions.  SOLVED @ 6 mins.
+
+   Problem Sumit
+             No submissions.
+
+   Problem Tax Evasion
+             No submissions.
+
+team2 Site 1 - 'BYU Trailblazers'
+   Problem Box Packing
+             No submissions.
+
+   Problem The Colourful Boxes
+       2   2 JUDGED Yes Python 3
+             1 submissions.  SOLVED @ 2 mins.
+
+   Problem Game
+             No submissions.
+
+   Problem Hello World
+             No submissions.
+
+   Problem The Magic Garden
+       3   2 JUDGED Yes Kotlin
+             1 submissions.  SOLVED @ 2 mins.
+
+   Problem The Matrix Problem
+             No submissions.
+
+   Problem Rooms
+             No submissions.
+
+   Problem Sumit
+             No submissions.
+
+   Problem Tax Evasion
+             No submissions.
+
+team4 Site 1 - 'CMU Codebreakers'
+   Problem Box Packing
+             No submissions.
+
+   Problem The Colourful Boxes
+             No submissions.
+
+   Problem Game
+             No submissions.
+
+   Problem Hello World
+             No submissions.
+
+   Problem The Magic Garden
+             No submissions.
+
+   Problem The Matrix Problem
+       1   1 JUDGED Yes C
+             1 submissions.  SOLVED @ 1 mins.
+
+   Problem Rooms
+             No submissions.
+
+   Problem Sumit
+             No submissions.
+
+   Problem Tax Evasion
+             No submissions.
+
+team5 Site 1 - 'CMU Innovators'
+   Problem Box Packing
+             No submissions.
+
+   Problem The Colourful Boxes
+      11  12 JUDGED Yes Python 3
+             1 submissions.  SOLVED @ 12 mins.
+
+   Problem Game
+      12  12 JUDGED Yes C++
+             1 submissions.  SOLVED @ 12 mins.
+
+   Problem Hello World
+             No submissions.
+
+   Problem The Magic Garden
+             No submissions.
+
+   Problem The Matrix Problem
+      10  12 JUDGED Yes Python 3
+             1 submissions.  SOLVED @ 12 mins.
+
+   Problem Rooms
+             No submissions.
+
+   Problem Sumit
+      13  13 JUDGED Yes Java
+             1 submissions.  SOLVED @ 13 mins.
+
+   Problem Tax Evasion
+             No submissions.
+
+team9 Site 1 - 'Georgia Tech Warriors'
+   Problem Box Packing
+             No submissions.
+
+   Problem The Colourful Boxes
+             No submissions.
+
+   Problem Game
+             No submissions.
+
+   Problem Hello World
+       6   5 JUDGED Yes C++
+             1 submissions.  SOLVED @ 5 mins.
+
+   Problem The Magic Garden
+             No submissions.
+
+   Problem The Matrix Problem
+             No submissions.
+
+   Problem Rooms
+             No submissions.
+
+   Problem Sumit
+             No submissions.
+
+   Problem Tax Evasion
+             No submissions.
+
+team10 Site 1 - 'Harvard Visionaries'
+   Problem Box Packing
+             No submissions.
+
+   Problem The Colourful Boxes
+             No submissions.
+
+   Problem Game
+             No submissions.
+
+   Problem Hello World
+      15  27 JUDGED Yes Python 3
+             1 submissions.  SOLVED @ 27 mins.
+
+   Problem The Magic Garden
+             No submissions.
+
+   Problem The Matrix Problem
+      16  28 JUDGED Yes C++
+             1 submissions.  SOLVED @ 28 mins.
+
+   Problem Rooms
+             No submissions.
+
+   Problem Sumit
+             No submissions.
+
+   Problem Tax Evasion
+             No submissions.
+
+team13 Site 1 - 'MIT Mavericks'
+   Problem Box Packing
+             No submissions.
+
+   Problem The Colourful Boxes
+      19  29 JUDGED Yes C++
+             1 submissions.  SOLVED @ 29 mins.
+
+   Problem Game
+      18  29 JUDGED Yes Python 3
+             1 submissions.  SOLVED @ 29 mins.
+
+   Problem Hello World
+             No submissions.
+
+   Problem The Magic Garden
+      17  28 JUDGED Yes C
+             1 submissions.  SOLVED @ 28 mins.
+
+   Problem The Matrix Problem
+             No submissions.
+
+   Problem Rooms
+             No submissions.
+
+   Problem Sumit
+             No submissions.
+
+   Problem Tax Evasion
+             No submissions.
+
+team18 Site 1 - 'Yale Scholars'
+   Problem Box Packing
+             No submissions.
+
+   Problem The Colourful Boxes
+             No submissions.
+
+   Problem Game
+       5   4 JUDGED No  Java
+             1 submissions.  NOT solved
+
+   Problem Hello World
+             No submissions.
+
+   Problem The Magic Garden
+             No submissions.
+
+   Problem The Matrix Problem
+             No submissions.
+
+   Problem Rooms
+             No submissions.
+
+   Problem Sumit
+       4   3 JUDGED Yes Java
+             1 submissions.  SOLVED @ 3 mins.
+
+   Problem Tax Evasion
+             No submissions.
+
+team21 Site 1 - 'Northwestern Innovators'
+   Problem Box Packing
+             No submissions.
+
+   Problem The Colourful Boxes
+             No submissions.
+
+   Problem Game
+             No submissions.
+
+   Problem Hello World
+      14  16 JUDGED Yes C
+             1 submissions.  SOLVED @ 16 mins.
+
+   Problem The Magic Garden
+             No submissions.
+
+   Problem The Matrix Problem
+             No submissions.
+
+   Problem Rooms
+             No submissions.
+
+   Problem Sumit
+             No submissions.
+
+   Problem Tax Evasion
+             No submissions.
+
+
+end report

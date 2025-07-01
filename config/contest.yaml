@@ -1,0 +1,8 @@
+id:                         tcpc_contest
+formal_name:                Test Colligiate Programming Competition
+name:                       TCPC - Test
+#start_time:                 2025-06-22T14:00:00+02:00
+duration:                   0:30:00
+scoreboard_freeze_duration: 0:30:00
+penalty_time:               20
+scoreboard_type:            pass-fail

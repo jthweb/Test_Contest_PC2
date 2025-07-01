@@ -1,0 +1,10 @@
+pc2 results dir       : reports\report.Results_Export_Files.06.29.680.txt.files
+
+Contest finalized     : Yes.  Finalized at Sun Jun 29 15:45:26 GMT+03:00 2025
+
+Wrote results files to:
+reports\report.Results_Export_Files.06.29.680.txt.files\results.tsv
+reports\report.Results_Export_Files.06.29.680.txt.files\scoreboard.json
+reports\report.Results_Export_Files.06.29.680.txt.files\awards.json
+reports\report.Results_Export_Files.06.29.680.txt.files\event-feed.ndjson
+

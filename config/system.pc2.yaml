@@ -1,0 +1,45 @@
+allow-multiple-team-logins : true
+
+auto-stop-clock-at-end: true
+
+# 10M?
+max-output-size-K: 8192
+memory-limit-in-Meg: 2048
+
+stop-on-first-failed-test-case: true
+
+default-clars:
+  - No comment, read problem statement.
+  - This will be answered during the answers to questions session.
+
+clar-categories:
+  - General
+
+# pc2 judging types
+computer-judged: true
+manual-review: false
+send-prelim-judgement: false
+
+# Load data files into pc2 as SerializedFiles, not using CDP external files if true
+load-data-files: false
+
+accounts:
+
+  - account: ADMINISTRATOR
+    site: 1
+    count: 2
+
+  - account: JUDGE
+    site: 1
+    count: 5
+
+  - account: SCOREBOARD
+    site: 1
+    count: 3
+
+auto-judging:
+  - account: JUDGE
+    site: 1
+    number: 1,2,3,4,5
+    letters: all
+    enabled: yes

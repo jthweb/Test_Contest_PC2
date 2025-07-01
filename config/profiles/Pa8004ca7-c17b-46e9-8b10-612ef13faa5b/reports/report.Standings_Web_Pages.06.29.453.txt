@@ -1,0 +1,33 @@
+CSUS Programming Contest Control System
+Date: Sunday, 29 June 2025, 15:51:17 GMT+03:00
+Version 9.11build 20250513 (Tuesday, May 13th 2025 22:59 UTC) Java ver 24.0.1 build 7207~develop Windows 10 10.0 (amd64) 
+
+Standings Web Pages Report
+
+Contest date/time: Sun Jun 29 15:14:47 GMT+03:00 2025
+Wrote file profiles\Pa8004ca7-c17b-46e9-8b10-612ef13faa5b\reports\report.Standings_Web_Pages.full.06.29.777.html
+  based on full.xsl
+
+Wrote file profiles\Pa8004ca7-c17b-46e9-8b10-612ef13faa5b\reports\report.Standings_Web_Pages.fullnums.06.29.938.html
+  based on fullnums.xsl
+
+Wrote file profiles\Pa8004ca7-c17b-46e9-8b10-612ef13faa5b\reports\report.Standings_Web_Pages.index.06.29.093.html
+  based on index.xsl
+
+Wrote file profiles\Pa8004ca7-c17b-46e9-8b10-612ef13faa5b\reports\report.Standings_Web_Pages.iScoreBoard.php.06.29.290.html
+  based on iScoreBoard.php.xsl
+
+Wrote file profiles\Pa8004ca7-c17b-46e9-8b10-612ef13faa5b\reports\report.Standings_Web_Pages.pc2export.06.29.360.html
+  based on pc2export.xsl
+
+Wrote file profiles\Pa8004ca7-c17b-46e9-8b10-612ef13faa5b\reports\report.Standings_Web_Pages.sumatt.06.29.434.html
+  based on sumatt.xsl
+
+Wrote file profiles\Pa8004ca7-c17b-46e9-8b10-612ef13faa5b\reports\report.Standings_Web_Pages.summary.06.29.531.html
+  based on summary.xsl
+
+Wrote file profiles\Pa8004ca7-c17b-46e9-8b10-612ef13faa5b\reports\report.Standings_Web_Pages.sumtime.06.29.621.html
+  based on sumtime.xsl
+
+
+end report

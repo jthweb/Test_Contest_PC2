@@ -1,0 +1,29 @@
+\problemtitle{Tax Evasion}
+
+In a small country, the government has implemented a tax system where every citizen is required to pay a certain percentage of their income as tax. However, some citizens try to evade taxes by underreporting their income.
+
+You are tasked with writing a program that detects potential tax evasion. The program will take the reported income of a citizen and the actual income (which is known to the government) and determine if the reported income is less than 80% of the actual income. If it is, the citizen is flagged for potential tax evasion.
+Input
+
+    The first line contains an integer T (1 ≤ T ≤ 100), the number of test cases.
+    Each of the next T lines contains two integers:
+        R (0 ≤ R ≤ 10^6): the reported income.
+        A (0 ≤ A ≤ 10^6): the actual income.
+
+Output
+For each test case, output "Evasion" if the reported income is less than 80% of the actual income, otherwise output "No Evasion".
+
+Example Input
+5
+50000 60000
+70000 100000
+80000 100000
+30000 40000
+90000 90000
+
+Example Output
+Evasion
+Evasion
+No Evasion
+Evasion
+No Evasion

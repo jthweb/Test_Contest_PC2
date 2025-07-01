@@ -1,0 +1,33 @@
+CSUS Programming Contest Control System
+Date: Sunday, 29 June 2025, 15:51:18 GMT+03:00
+Version 9.11build 20250513 (Tuesday, May 13th 2025 22:59 UTC) Java ver 24.0.1 build 7207~develop Windows 10 10.0 (amd64) 
+Build 7207~develop
+
+-- Contest Information --
+  Title : 'TCPC - Test'
+  URL   : 'null'
+
+  C.C.S. Test Mode                                    : No
+  Include Preliminary Judgements in Scoring Algorithm : No
+  Send Notifications for Preliminary Judgements       : No
+  Send Additional Run Status Information              : No
+  Stop at end of contest                              : Yes
+
+  Judges' Default Answer                               : 'No response, read problem statement'
+Shadow mode                                            : No
+CCS URL                                                : null
+CCS Login                                              : 
+CCS Password                                           : 
+CCS shadow event id                                    : 
+  Judges see: LOGIN_NAME_ONLY
+
+  Scoring Properties, there are 7 keys
+     Base Points per Yes='0'
+     Output HTML dir for Judges='html'
+     Output Public HTML dir='public_html'
+     Points per Compilation Error='0'
+     Points per Minute (for 1st yes)='1'
+     Points per No='20'
+     Points per Security Violation='0'
+
+end report

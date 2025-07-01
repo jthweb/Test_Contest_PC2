@@ -1,0 +1,14 @@
+250629 151154.599|CONFIG|main|log|Now logging to C:\pc2\TestContest\config\profiles\Pa8004ca7-c17b-46e9-8b10-612ef13faa5b directory.
+250629 151154.600|INFO|main|log|
+250629 151154.600|INFO|main|log|Version 9.11build 20250513 (Tuesday, May 13th 2025 22:59 UTC) Java ver 24.0.1 build 7207~develop Windows 10 10.0 (amd64) 
+250629 151154.601|INFO|main|log|Working directory is C:\pc2\TestContest\config
+250629 151154.602|INFO|main|log|Process id is 12448@LAPTOP-HOME2
+250629 151155.205|FINER|main|log|FrameUtilities.loadAndVerifyImageFile(): searching for image file 'images/PC2Logo.png' in jar files
+250629 151155.208|FINER|main|log|FrameUtilities.loadAndVerifyImageFile(): found image file 'images/PC2Logo.png' at URL 'jar:file:/C:/pc2/pc2-9.11build-7207.develop/lib/pc2.jar!/images/PC2Logo.png'
+250629 151155.209|FINER|main|log|FrameUtilities.loadAndVerifyImageFile(): found image file 'images/PC2Logo.png'; verifying checksum
+250629 151155.855|FINER|main|log|FrameUtilities.loadAndVerifyImageFile(): searching for image file 'images/csus_logo.png' in jar files
+250629 151155.857|FINER|main|log|FrameUtilities.loadAndVerifyImageFile(): found image file 'images/csus_logo.png' at URL 'jar:file:/C:/pc2/pc2-9.11build-7207.develop/lib/pc2.jar!/images/csus_logo.png'
+250629 151155.857|FINER|main|log|FrameUtilities.loadAndVerifyImageFile(): found image file 'images/csus_logo.png'; verifying checksum
+250629 151155.864|FINER|main|log|FrameUtilities.loadAndVerifyImageFile(): searching for image file 'images/ICPCWebMast_small.png' in jar files
+250629 151155.867|FINER|main|log|FrameUtilities.loadAndVerifyImageFile(): found image file 'images/ICPCWebMast_small.png' at URL 'jar:file:/C:/pc2/pc2-9.11build-7207.develop/lib/pc2.jar!/images/ICPCWebMast_small.png'
+250629 151155.868|FINER|main|log|FrameUtilities.loadAndVerifyImageFile(): found image file 'images/ICPCWebMast_small.png'; verifying checksum
