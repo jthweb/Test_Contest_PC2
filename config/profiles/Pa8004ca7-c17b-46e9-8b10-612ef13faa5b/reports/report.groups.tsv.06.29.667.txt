@@ -1,2 +1,0 @@
-groups	1
-1001	TCPC Teams
