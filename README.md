@@ -59,7 +59,7 @@ C:\Program Files\Java\jdk-24\bin
 C:\Program Files\Java\latest\jre-1.8\bin
 ```
 
-> 📝 Note: Adjust paths to match the versions you installed.
+> 📝 Note: Adjust paths to match the versions you installed or the folder in which you placed the folder. Also make sure the names in the PATH have no space in them. Use underscores or other characters to fill it in.
 
 ---
 
