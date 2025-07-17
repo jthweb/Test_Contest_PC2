@@ -1,4 +1,4 @@
-# 🖥️ PC² Setup for ICPC=Style Contests (Windows)
+# 🖥️ PC² Setup for ICPC-Style Contests (Windows)
 
 This guide walks you through setting up the [PC² Contest Control System](https://github.com/pc2ccs) for **ICPC-style contests** on **Windows**. A Linux (WSL) setup is coming soon.
 
@@ -69,7 +69,7 @@ C:\Program Files\Java\latest\jre-1.8\bin
 
 ```sh
 cd C:\pc2\TestContest\config
-pc2server --load C:\pc2\TestContest\config
+pc2server --load "C:\pc2\TestContest\config"
 ```
 
 - Login: `site1` / `site1`
@@ -137,4 +137,4 @@ Pull requests are welcome! Feel free to submit improvements for:
 GNU v3.0 License. See `LICENSE` file.
 
 
-### Special thanks to [John Buck](https://github.com/johnbrvc) for helping me learn how to set up PC²
+### Special thanks to [John Buck](https://github.com/johnbrvc) for helping me learn how to set up PC².
