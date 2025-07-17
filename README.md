@@ -136,3 +136,5 @@ Pull requests are welcome! Feel free to submit improvements for:
 
 GNU v3.0 License. See `LICENSE` file.
 
+
+### Special thanks to [John Buck](https://github.com/johnbrvc) for helping me learn how to set up PC²
