@@ -1,6 +1,6 @@
 # 🙌 Contributing Guide
 
-Thanks for considering contributing to **PC² Setup Docs for JThweb Contests**! 🚀
+Thanks for considering contributing to **PC² Setup Docs Contests**! 🚀
 
 ## 🧰 Ways to Contribute
 
