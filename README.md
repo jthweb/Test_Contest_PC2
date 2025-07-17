@@ -109,7 +109,7 @@ pc2wti
 
 Then open: [https://localhost:8080](https://localhost:8080)
 
-- Login: `teamx` / `teamx` (where x is team number)
+- Login using: `teamx` / `teamx` (where x is team number)
 
 ---
 
