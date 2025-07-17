@@ -132,5 +132,5 @@ Pull requests are welcome! Feel free to submit improvements for:
 
 ## 📄 License
 
-MIT License. See `LICENSE` file.
+GNU v3.0 License. See `LICENSE` file.
 
