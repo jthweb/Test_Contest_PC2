@@ -141,6 +141,9 @@ resolver.bat C:\pc2\TestContest\resolver
 Follow the guide from ICPC for using the resolver 
 
 > 📝 Note:  Make sure to adjust the path of the resolver based on where you exported the finalized data.
+
+Congrats! You have successfully hosted your first contest using PC²!
+
 ---
 
 ## 🧭 Coming Soon
