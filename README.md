@@ -111,6 +111,8 @@ Then open: [https://localhost:8080](https://localhost:8080)
 
 - Login using username and password `teamx` / `teamx` (where x is team number)
 
+And that's all! The server is set! Now start the contest from the admin panel by clicking on the `Times` tab and click on the site you want to start. You can also additionally change the start and end times to your system time, rather than manually starting and ending the contest.
+
 ---
 
 ## 🧭 Coming Soon
