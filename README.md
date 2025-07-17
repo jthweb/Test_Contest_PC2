@@ -115,12 +115,32 @@ And that's all! The server is set! Now start the contest from the admin panel by
 
 ### 5. Resolve the Contest
 
+Go to the "Reports" tab from an "administrator" account or from the "server".
+Select the "Results Export Files"
+from the "Reports" pull-down list, then press the "Export Report Contents" button. A window will pop up showing you
+where it created the reports, for example:
+
+```
+pc2 results dir : reports\report.Results_Export_Files.06.18.126.txt.files
+Contest finalized : No. (Warning - contest is not finalized)
+Wrote results files to:
+reports\report.Results_Export_Files.06.18.126.txt.files\results.tsv
+reports\report.Results_Export_Files.06.18.126.txt.files\scoreboard.json
+reports\report.Results_Export_Files.06.18.126.txt.files\awards.json
+reports\report.Results_Export_Files.06.18.126.txt.files\event-feed.ndjson
+```
+
+If you are not using the nightly build, you'll have to generate 2 reports: the "Event Feed JSON" report and the "awards
+JSON" report.
 
 ```sh 
 cd C:\pc2\resolver
-
+resolver.bat C:\pc2\TestContest\resolver
 ```
 
+Follow the guide from ICPC for using the resolver 
+
+> 📝 Note:  Make sure to adjust the path of the resolver based on where you exported the finalized data.
 ---
 
 ## 🧭 Coming Soon
