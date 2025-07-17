@@ -1,10 +1,10 @@
-# PC² Setup for JThweb Contests (Windows)
+# 🖥️ PC² Setup for JThweb Contests (Windows)
 
 This guide walks you through setting up the [PC² Contest Control System](https://github.com/pc2ccs) for **JThweb contests** on **Windows**. A Linux (WSL) setup is coming soon.
 
 ---
 
-## 📁 Folder Structure
+## 🗂️ Folder Structure
 
 Create the main directory at:  
 `C:\pc2`
@@ -31,7 +31,7 @@ C:/
 
 ---
 
-## 🔗 Required Downloads
+## 🌐 Required Downloads
 
 | Tool              | Link                                                                 |
 |-------------------|----------------------------------------------------------------------|
@@ -44,7 +44,7 @@ C:/
 
 ---
 
-## 🛠️ Environment Variables
+## ⚙️ Environment Variables
 
 Update your **system `PATH`** with:
 
@@ -63,7 +63,7 @@ C:\Program Files\Java\latest\jre-1.8\bin
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Contest Launch Guide
 
 ### 1. Start the Server
 
@@ -113,7 +113,7 @@ Then open: [https://localhost:8080](https://localhost:8080)
 
 ---
 
-## 📌 Coming Soon
+## 🧭 Coming Soon
 
 - ✅ **WSL (Linux) setup instructions**
 - 🔄 Scripts for automated setup
@@ -121,7 +121,7 @@ Then open: [https://localhost:8080](https://localhost:8080)
 
 ---
 
-## 🤝 Contributing
+## 🧑‍🤝‍🧑 Contributing
 
 Pull requests are welcome! Feel free to submit improvements for:
 - Linux compatibility
@@ -130,7 +130,7 @@ Pull requests are welcome! Feel free to submit improvements for:
 
 ---
 
-## 🧑‍💻 License
+## 📄 License
 
 MIT License. See `LICENSE` file.
 

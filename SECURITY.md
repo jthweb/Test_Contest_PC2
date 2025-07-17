@@ -1,39 +1,27 @@
-# Security Policy
+# 🔐 Security Policy
 
-## Reporting a Vulnerability
+## 🛡️ Supported Versions
 
-If you discover a security vulnerability in this project, please report it to us as soon as possible. We take security seriously and appreciate your help in keeping our project safe.
+We currently support the latest version of the setup documentation. Please update to the latest version to ensure compatibility and security.
 
-1. **Email**: Send an email to [jthweb@duck.com] with the subject line "Security Vulnerability Report".
-2. **Details**: Include as much detail as possible about the vulnerability, including:
-   - A description of the vulnerability
-   - Steps to reproduce the issue
-   - Any relevant screenshots or logs
-   - Your contact information (optional, but helpful for follow-up)
+| Version | Supported |
+|---------|-----------|
+| Latest  | ✅         |
+| Older   | ❌         |
 
-## Response Process
+## 🐛 Reporting a Vulnerability
 
-Upon receiving your report, we will:
+If you discover a security issue or vulnerability:
 
-1. Acknowledge receipt of your report within 48 hours.
-2. Investigate the issue and determine the severity.
-3. Work on a fix and provide you with updates on our progress.
-4. Release a patch or update as soon as possible, and notify the community.
+1. **Do not open a public issue.**
+2. Email us at: [your-email@example.com]
+3. Include:
+   - A detailed description
+   - Steps to reproduce (if possible)
+   - Potential impact
 
-## Security Updates
+We will respond within **72 hours** and aim to resolve issues promptly.
 
-We will make security updates available in a timely manner. Please ensure you are subscribed to our repository to receive notifications about new releases.
+---
 
-## Security Best Practices
-
-While we work to ensure the security of our project, we encourage users to follow best practices, including:
-
-- Keep your dependencies up to date.
-- Use strong passwords and enable two-factor authentication where possible.
-- Regularly review your security settings and permissions.
-
-## Disclaimer
-
-This security policy is subject to change. We will notify the community of any significant changes.
-
-Thank you for helping us keep our project secure!
+Thank you for helping us keep this project secure! 🙏
