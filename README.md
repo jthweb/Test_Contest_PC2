@@ -113,6 +113,14 @@ Then open: [https://localhost:8080](https://localhost:8080)
 
 And that's all! The server is set! Now start the contest from the admin panel by clicking on the `Times` tab and click on the site you want to start. You can also additionally change the start and end times to your system time, rather than manually starting and ending the contest.
 
+### 5. Resolve the Contest
+
+
+```sh 
+cd C:\pc2\resolver
+
+```
+
 ---
 
 ## 🧭 Coming Soon
@@ -128,13 +136,12 @@ And that's all! The server is set! Now start the contest from the admin panel by
 Pull requests are welcome! Feel free to submit improvements for:
 - Linux compatibility
 - Setup scripts
-- Docker-based deployment
 
 ---
 
 ## 📄 License
 
-GNU v3.0 License. See `LICENSE` file.
+GNU v3.0 License. See `LICENSE` file for details.
 
 
 ### Special thanks to [John Buck](https://github.com/johnbrvc) for helping me learn how to set up PC².
