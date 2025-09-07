@@ -1,7 +1,6 @@
 # 🖥️ PC² Setup for ICPC-Style Contests (Windows)
 
-This guide walks you through setting up the [PC² Contest Control System](https://github.com/pc2ccs) for **ICPC-style contests** on **Windows**. A Linux (WSL) setup is coming soon.
-
+This guide walks you through setting up the [PC² Contest Control System](https://github.com/pc2ccs) for **ICPC-style contests** on **Windows**.
 ---
 
 ## 🗂️ Folder Structure
@@ -146,13 +145,6 @@ Congrats! You have successfully hosted your first contest using PC²!
 
 ---
 
-## 🧭 Coming Soon
-
-- ✅ **WSL (Linux) setup instructions**
-- 🔄 Scripts for automated setup
-- 💡 Troubleshooting & FAQ
-
----
 
 ## 🧑‍🤝‍🧑 Contributing
 
